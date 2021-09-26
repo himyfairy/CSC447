@@ -1,0 +1,76 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Documents/Codes/Git_CSC447/hw/play/README.scala:138:14: ';' expected but ':' found.[0m
+[0m[[0m[31merror[0m] [0m[0mobject test66:[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Documents/Codes/Git_CSC447/hw/play/README.scala:142:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    val result = computeResult[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Documents/Codes/Git_CSC447/hw/play/README.scala:143:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    println(s"prefix $prefix : rs $result")[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Documents/Codes/Git_CSC447/hw/play/README.scala:144:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    result[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Documents/Codes/Git_CSC447/hw/play/README.scala:146:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  def fact(n: Int): Int =[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Documents/Codes/Git_CSC447/hw/play/README.scala:150:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  def factLog(n: Int): Int =[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Documents/Codes/Git_CSC447/hw/play/README.scala:156:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  def fib(n: Int): Int =[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Documents/Codes/Git_CSC447/hw/play/README.scala:159:7: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m      throw UnsupportedOperationException()[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Documents/Codes/Git_CSC447/hw/play/README.scala:160:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    if n == 0 || n == 1 then n[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Documents/Codes/Git_CSC447/hw/play/README.scala:163:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  def sum(xs: List[Int]) : Int =[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Documents/Codes/Git_CSC447/hw/play/README.scala:165:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    if xs.length == 1 then xs.head[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Documents/Codes/Git_CSC447/hw/play/README.scala:168:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  def max(xs: List[Int]): Int =[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Documents/Codes/Git_CSC447/hw/play/README.scala:170:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    if xs.length == 1 then xs.head[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Documents/Codes/Git_CSC447/hw/play/README.scala:173:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  def otpu(start: Int, end: Int): List[Int] =[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Documents/Codes/Git_CSC447/hw/play/README.scala:177:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  def formatArgs(args: List[String]) = args.mkString("\n")[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Documents/Codes/Git_CSC447/hw/play/README.scala:179:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  def sumTailAux(xs: List[Int], accumulator: Int): Int =[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Documents/Codes/Git_CSC447/hw/play/README.scala:182:7: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m      case y :: ys => sumTailAux(ys, accumulator + y)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Documents/Codes/Git_CSC447/hw/play/README.scala:184:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  def sumTail(xs: List[Int]): Int =[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Documents/Codes/Git_CSC447/hw/play/README.scala:188:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  def maxTailAux(xs: List[Int], accumulator: Int): Int =[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Documents/Codes/Git_CSC447/hw/play/README.scala:192:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  def maxTail(xs: List[Int]): Int =[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Documents/Codes/Git_CSC447/hw/play/README.scala:195:7: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m      case y :: ys => maxTailAux(ys, y)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Documents/Codes/Git_CSC447/hw/play/README.scala:197:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  def ***() = [0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Documents/Codes/Git_CSC447/hw/play/README.scala:200:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  def fileLines(file: java.io.File) =[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Documents/Codes/Git_CSC447/hw/play/README.scala:203:9: expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m  @main def mmm() = [0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Documents/Codes/Git_CSC447/hw/play/README.scala:225:5: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m    println(str)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m25 errors found[0m

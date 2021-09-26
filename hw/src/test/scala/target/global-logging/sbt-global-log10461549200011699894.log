@@ -1,0 +1,218 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly fp1tests, Some(8cb6644b-fad5-4660-8774-bfed5776c6eb), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 9 Scala sources to /Users/qilu/Downloads/hw/src/test/scala/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/argpasstests.scala:4:36: ';' expected but ':' found.[0m
+[0m[[0m[31merror[0m] [0m[0mclass argpasstests extends UnitSpec:[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/argpasstests.scala:13:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX01 - refint1", EX (1)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/argpasstests.scala:37:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX02 - refint2", EX (2)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/argpasstests.scala:62:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX03 - refint3", EX (3)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/argpasstests.scala:71:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX04 - refint4", EX (4)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/argpasstests.scala:93:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX05 - refint5", EX (5)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/dynamictests.scala:4:36: ';' expected but ':' found.[0m
+[0m[[0m[31merror[0m] [0m[0mclass dynamictests extends UnitSpec:[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/dynamictests.scala:13:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX01 - useGreet", EX (1)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/dynamictests.scala:23:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX02 - newEnglish", EX (2)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/dynamictests.scala:29:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX03 - newFrench", EX (3)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp1tests.scala:4:32: ';' expected but ':' found.[0m
+[0m[[0m[31merror[0m] [0m[0mclass fp1tests extends UnitSpec:[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp1tests.scala:13:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX01 - factTest", EX (1)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp1tests.scala:17:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX02 - fib", EX (2)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp1tests.scala:38:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX03 - p1", EX (3)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp1tests.scala:44:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX04 - t1", EX (4)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp1tests.scala:51:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX05 - swap", EX (5)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp1tests.scala:57:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  val sumTable = Table ([0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp1tests.scala:64:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX06 - sum", EX (6)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp1tests.scala:70:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX07 - sumTail", EX (7)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp1tests.scala:76:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  val maxTable = Table ([0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp1tests.scala:83:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  val maxEmptyTable = Table ([0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp1tests.scala:88:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX08 - max", EX (8)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp1tests.scala:98:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX09 - maxTailAux", EX (9)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp1tests.scala:107:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX10 - otpu", EX (10)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp2tests.scala:4:32: ';' expected but ':' found.[0m
+[0m[[0m[31merror[0m] [0m[0mclass fp2tests extends UnitSpec:[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp2tests.scala:13:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX01 - map", EX (1)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp2tests.scala:18:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX02 - filter", EX (2)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp2tests.scala:26:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX03 - append", EX (3)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp2tests.scala:33:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX04 - flatten", EX (4)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp2tests.scala:40:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX05 - foldLeft", EX (5)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp2tests.scala:46:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX06 - foldRight", EX (6)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp2tests.scala:52:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX07 - joinTerminateRight", EX (7)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp2tests.scala:58:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX08 - joinTerminateLeft", EX (8)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp2tests.scala:64:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX09 - firstNumGreaterThan", EX (9)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp2tests.scala:70:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX10 - firstIndexNumGreaterThan", EX (10)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp3tests.scala:4:32: ';' expected but ':' found.[0m
+[0m[[0m[31merror[0m] [0m[0mclass fp3tests extends UnitSpec:[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp3tests.scala:13:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX01 - member", EX (1)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp3tests.scala:18:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX02 - allEqual", EX (2)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp3tests.scala:27:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  val test1 = List ("The", "rain", "in", "Spain", "falls", "mainly", "on", "the", "plain.")[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp3tests.scala:28:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  val test2 = List (1,1,2,3,3,3,4,4,5,6,7,7,8,9,2,2,2,9)[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp3tests.scala:30:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX03 - stringLengths", EX (3)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp3tests.scala:35:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX04 - delete1", EX (4)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp3tests.scala:40:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX05 - delete2", EX (5)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp3tests.scala:45:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX06 - delete3", EX (6)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp3tests.scala:50:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX07 - removeDupes1", EX (7)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp3tests.scala:55:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX08 - removeDupes2", EX (8)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp3tests.scala:60:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX09 - splitAt", EX (9)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/fp3tests.scala:69:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX10 - allDistinct", EX (10)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/interpretertests.scala:4:40: ';' expected but ':' found.[0m
+[0m[[0m[31merror[0m] [0m[0mclass interpretertests extends UnitSpec:[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/interpretertests.scala:15:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX01 - exFiftyVal", EX (1)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/interpretertests.scala:19:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX02 - exFiftyExp", EX (2)) { [0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/interpretertests.scala:23:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX03 - exX", EX (3)) { [0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/interpretertests.scala:28:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX04 - exXPlusFifty", EX (4)) { [0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/interpretertests.scala:36:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX05 - exXFunPlusFifty", EX (5)) { [0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/interpretertests.scala:42:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX06 - exXFunPlusFiftyApplied", EX (6)) { [0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/interpretertests.scala:48:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX07 - exLetXLetY", EX (7)) { [0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/interpretertests.scala:57:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX08 - exLetF", EX (8)) { [0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/interpretertests.scala:68:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX10 - exPair", EX (10)) { [0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/interpretertests.scala:79:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX11 - exCounter", EX (11)) { [0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/storagetests.scala:4:36: ';' expected but ':' found.[0m
+[0m[[0m[31merror[0m] [0m[0mclass storagetests extends UnitSpec:[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/storagetests.scala:13:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX01 - constant5", EX (1)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/storagetests.scala:22:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX02 - constant", EX (2)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/storagetests.scala:37:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX03 - counter0", EX (3)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/storagetests.scala:47:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX04 - counter", EX (4)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/storagetests.scala:62:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX05 - getAndSet", EX (5)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/storagetests.scala:81:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX06 - getAndSetSpy", EX (6)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/subtypingtests.scala:4:38: ';' expected but ':' found.[0m
+[0m[[0m[31merror[0m] [0m[0mclass subtypingtests extends UnitSpec:[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/subtypingtests.scala:13:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX01 - observeCounter", EX (1)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/subtypingtests.scala:27:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX02 - observeCounterList", EX (2)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/qilu/Downloads/hw/src/test/scala/subtypingtests.scala:44:3: expected class or object definition[0m
+[0m[[0m[31merror[0m] [0m[0m  property ("EX03 - observeCounterArray", EX (3)) {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m70 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 3 s, completed Sep 21, 2021, 11:41:59 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

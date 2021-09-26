@@ -1,0 +1,18 @@
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E018] Syntax Error: /Users/qilu/Documents/Codes/Git_CSC447/hw/src/main/scala/fp1.scala:40:8 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m40 |[0m  de log[X](prefix: String)(computeResult: => X) =[0m
+[0m[[0m[31merror[0m] [0m[0m   |        [31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |        expression expected but [31m'['[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E040] Syntax Error: /Users/qilu/Documents/Codes/Git_CSC447/hw/src/main/scala/fp1.scala:203:0 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m203 |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |[31m^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |eof expected, but unindent found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/qilu/Documents/Codes/Git_CSC447/hw/src/main/scala/fp1.scala:40:2 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m40 |[0m  de log[X](prefix: String)(computeResult: => X) =[0m
+[0m[[0m[31merror[0m] [0m[0m   |  [31m^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |  Not found: de[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E006] Not Found Error: /Users/qilu/Documents/Codes/Git_CSC447/hw/src/main/scala/fp1.scala:56:4 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m56 |[0m    log([31ms"fact([0m$n[31m)"[0m) {[0m
+[0m[[0m[31merror[0m] [0m[0m   |    [31m^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m   |    Not found: log[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m

@@ -1,0 +1,29 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(console, Some(59fede18-bc69-4d5f-baf8-5051276e5d75), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / console[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@62b786dc, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"4","parents":[]},"eventTime":1632196438813,"message":"Compiling hw","dataKind":"compile-task","data":{"target":{"uri":"file:/Users/qilu/Downloads/hw/#hw/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/qilu/Downloads/hw/src/main/scala/storage.scala"},"buildTarget":{"uri":"file:/Users/qilu/Downloads/hw/#hw/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/qilu/Downloads/hw/src/main/scala/subtyping.scala"},"buildTarget":{"uri":"file:/Users/qilu/Downloads/hw/#hw/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/qilu/Downloads/hw/src/main/scala/fp1.scala"},"buildTarget":{"uri":"file:/Users/qilu/Downloads/hw/#hw/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/qilu/Downloads/hw/src/main/scala/fp3.scala"},"buildTarget":{"uri":"file:/Users/qilu/Downloads/hw/#hw/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/qilu/Downloads/hw/src/main/scala/dynamic.scala"},"buildTarget":{"uri":"file:/Users/qilu/Downloads/hw/#hw/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/qilu/Downloads/hw/src/main/scala/fp2.scala"},"buildTarget":{"uri":"file:/Users/qilu/Downloads/hw/#hw/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/qilu/Downloads/hw/src/main/scala/interpreter.scala"},"buildTarget":{"uri":"file:/Users/qilu/Downloads/hw/#hw/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/qilu/Downloads/hw/src/main/scala/argpass.scala"},"buildTarget":{"uri":"file:/Users/qilu/Downloads/hw/#hw/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"4","parents":[]},"eventTime":1632196438879,"message":"Compiled hw","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/Users/qilu/Downloads/hw/#hw/Compile"},"errors":0,"warnings":0,"time":66}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition json request: {"textDocument":{"uri":"file:///Users/qilu/Downloads/hw/play/README.scala"},"position":{"line":13,"character":4}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition found line: def log[X](prefix: String, d: Int = 0)(computeResult: => X) =[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled notification received: $/cancelRequest: JsonRpcNotificationMessage(2.0, $/cancelRequest, {"id":1})[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition json request: {"textDocument":{"uri":"file:///Users/qilu/Downloads/hw/play/README.scala"},"position":{"line":12,"character":6}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition found line: [0m
+[0m[[0m[0minfo[0m] [0m[0mSymbol not found in definition request {"textDocument":{"uri":"file:///Users/qilu/Downloads/hw/play/README.scala"},"position":{"line":12,"character":6}}[0m
+[0m[[0m[0mdebug[0m] [0m[0msymbol log[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition potentials: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition locations Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition json request: {"textDocument":{"uri":"file:///Users/qilu/Downloads/hw/play/README.scala"},"position":{"line":42,"character":58}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition found line: // Try this:[0m
+[0m[[0m[0minfo[0m] [0m[0mSymbol not found in definition request {"textDocument":{"uri":"file:///Users/qilu/Downloads/hw/play/README.scala"},"position":{"line":42,"character":58}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mlsp-definition json request: {"textDocument":{"uri":"file:///Users/qilu/Downloads/hw/play/README.scala"},"position":{"line":61,"character":16}}[0m
+[0m[[0m[0minfo[0m] [0m[0mSymbol not found in definition request {"textDocument":{"uri":"file:///Users/qilu/Downloads/hw/play/README.scala"},"position":{"line":61,"character":16}}[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, shutdown, [true,null])[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m
