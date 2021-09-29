@@ -38,3 +38,9 @@
 1632325978018:load play/README.scala
 1632325986228::load play/README.scala
 1632335338002:console
+1632687770091:compile
+1632687789831:testOnly fp1tests
+1632794131450:testOnly fp1tests -- -n fp1ex05
+1632794158567:testOnly fp2tests -- -n fp2ex01
+1632892803050:testOnly fp2tests -- -n fp2ex02
+1632892823854:testOnly fp2tests

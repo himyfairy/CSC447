@@ -134,6 +134,7 @@ import scala.collection.mutable
 import scala.collection.immutable
 import scala.compiletime.ops.int
 import scala.language.postfixOps
+import scala.io.StdIn.readLine
 
 object test66:
 
@@ -200,7 +201,280 @@ object test66:
   def fileLines(file: java.io.File) =
     scala.io.Source.fromFile(file).getLines().toArray
 
+  def gcdLoop(x: Long, y: Long): Long =
+    var a = x
+    var b = y
+    while a != 0 do
+      val temp = a
+      a = b % a
+      b = temp
+      println(s"---a:$a b:$b")
+    b
+  
+  def printMultiTable() =
+    var i = 1
+    // only i in scope here
+    while i <= 10 do
+      var j = 1
+      // both i and j in scope here
+      while j <= 10 do
+        val prod = (i * j).toString
+        // i, j, and prod in scope here
+        var k = prod.length
+        // i, j, prod, and k in scope here
+        while k < 4 do
+          print(" ")
+          k += 1
+        print(prod)
+        j += 1
+        // i and j still in scope; prod and k out of scope
+      println()
+      i += 1
+    // i still in scope; j, prod, and k out of scope
+
+  def twice(op: Double => Double, x: Double) = op(op(x))
+
+  def isort(xs: List[Int]): List[Int] =
+    if xs.isEmpty then Nil
+    else insert(xs.head, isort(xs.tail))
+
+  def insert(x: Int, xs: List[Int]): List[Int] =
+    if xs.isEmpty || x <= xs.head then x :: xs
+    else xs.head :: insert(x, xs.tail)
+
+  // def append[T](xs: List[T], ys: List[T]): List[T] =
+  //   xs match
+  //   case List() => ys
+  //   case x :: xs1 => x :: append(xs1, ys)
+    // case x :: xs1 => x :: xs1 :: ys
+
+
+  def map[A, B](xs: List[A], f: A => B): List[B] =
+    xs match
+      case List() => Nil
+      case x::xs1 => f(xs.head) :: map(xs.tail, f)
+  
+  def myfilter[A](xs: List[A], f: A => Boolean): List[A] =
+    xs match
+      case List() => Nil
+      case x::xs1 => 
+        if f(xs.head) then xs.head :: myfilter(xs.tail, f)
+        else myfilter(xs.tail, f)
+
+  def append[A](xs: List[A], ys: List[A]): List[A] =
+    xs match
+      case List() => ys
+      case x :: xs1 => x :: append(xs1, ys)
+
+  // def myappend[A](xs: List[A], ys: List[A]): List[A] =
+  //   ys match
+  //     case List() => xs
+  //     case y::ys1 =>
+  //       val newlist[A] = xs:::ys.head
+  //       myappend(newlist, ys.tail)
+
+  def flatten[A](xss: List[List[A]]): List[A] =
+    xss match
+      case List() => Nil
+      case x :: xs1 => append(x, flatten(xs1))
+
+  def mysum(xs: List[Int]): Int = xs.foldLeft(1)(_ + _)
+
+  def foldLeft[A, B](xs: List[A], e: B, f: (B, A) => B): B =
+    xs match 
+      case List() => e
+      case x :: xs1 => foldLeft(xs1, f(e, x), f)
+  
+  def foldRight[A, B](xs: List[A], e: B, f: (A, B) => B): B =
+    xs match 
+      case List() => e
+      case x :: xs1 => f(x, foldRight(xs1, e, f))
+
+  def fkh(s : String, n : Int) : String = s + "[" + n + "]"
+
+  def fkh2(n : Int, s : String) : String = s + "[" + n + "]"
+
+  def joinTerminateRight(xs: List[String], term: String): String =
+    foldRight(xs, "", (_+term+_))
+
+  def joinTerminateLeft(xs: List[String], term: String): String =
+    foldLeft(xs, "", (_+_+term))
+
+  // def plusTerm(a: String, term: String) = a + term
+  def plusTerm(a: String, t: String) : String = a + t
+
+  def testFun(a: String, b: String): String = a + b + ";"
+
+
+  def firstNumGreaterThan(a: Int, xs: List[Int]): Int =
+    xs match 
+      case List() => throw java.util.NoSuchElementException()
+      case x :: xs1 => 
+        if x >= a then x
+        else firstNumGreaterThan(a, xs1)
+
+  // def firstIndexNumGreaterThan(a: Int, xs: List[Int]): Int =
+  //   xs.indexOf(firstNumGreaterThan(a, xs))
+
+  def firstIndexNumGreaterThan(a: Int, xs: List[Int]): Int =
+    xs match 
+      case List() => throw java.util.NoSuchElementException()
+      case x :: xs1 => 
+        if x >= a then xs.indexOf(x)
+        else firstIndexNumGreaterThan(a, xs1)
+
+  // def hahahaha(xs: List[String]): List[String] = xs.foldLeft("")(_ + _)
+
   @main def mmm() = 
+  //List(a, b, c).foldLeft(z)(op) equals op(op(op(z, a), b), c)
+    println("-------")
+
+
+    // val xs = List("a", "b", "c", "d")
+    // val a = foldLeft(xs, "", testFun)
+    // val a = joinTerminateLeft(xs, ";")
+    // val a = joinTerminateRight(xs, ";")
+    // val a = hahahaha(xs)
+
+    // val b = xs.foldLeft("")(_+_+";")
+    // println(s"b:$b")
+
+    val xs = List(1, 2, 3, 4, 5, 3)
+    val a = firstIndexNumGreaterThan(2, xs)
+    // val a = firstNumGreaterThan(2, xs)
+    // val a = foldLeft(xs, "@", fkh)
+    // val ys = List(6, 7, 8)
+    // val a = map(xs, (x) => x+1)
+    // val a = myfilter(xs, _ > 2)
+    // val a = append(xs, ys)
+    // val a = xs.head :: ys
+    // val a = List(xs, ys)
+    // val b = flatten(a)
+    // println(a)
+    // println(b)
+    // val a = mysum(ys)
+    // val a = foldLeft(xs, "@", fangkuohao)
+    // val a = xs.init
+    // val a = foldRight(xs, "@", fangkuohao2)
+    // val a = foldRight(xs.reverse, "@", plusTerm)
+    // val a = joinTerminateRight(xs, ";")
+    // val a = foldLeft(xs, "@", plusTerm)
+    println(a)
+
+
+
+    // val a = List.range(1, 5).flatMap(
+    //           i => List.range(1, i).map(
+    //             j => (i, j)
+    //           )
+    //         )
+    // println(a)
+    // val multiplication = List.tabulate(5,5)(_ * _)
+    // println(multiplication)
+
+    // val a = (List(10, 20).zip(List(3, 4, 5)))
+    // val a = (List("abc", "de").lazyZip(List(3, 2))).forall(_.length == _)
+    // println(a)
+
+
+    // val l1 = List(1, 2, 3)
+    // val l2 = List(4, 5, 6)
+    // val l1 = List("audi", "bmw", "mercedes")
+    // val l2 = List("honda", "toyota", "mazada")
+    // val l3 = l1::l2::Nil
+    // println(l3)
+    // val l4 = l3.flatten
+    // println(l4)
+
+    // val xs = List(1,2,3,4,5)
+    // val xs = List("audi", "bmw", "mercedes", "honda", "toyota")
+    // println(xs.reverse.init)
+    // println(xs.tail.reverse)
+    // println(xs.splitAt(3))
+    // println(xs.take(3))
+    // println(xs.drop(2))
+    // println("head: " + xs.head)
+    // println("tail: " + xs.tail)
+    // println("init: " + xs.init)
+    // println("last: " + xs.last)
+    // println(xs.apply(1))
+    // println(xs.indices)
+    // println(xs.indices.zip(xs))
+    // println(xs.zipWithIndex.unzip.last)
+    // println(xs)
+    // println(xs.toString)
+    // println(xs.mkString)
+
+    // val abcde = List('a', 'b', 'c', 'd', 'e')
+    // val abcde = List("a","b","c","d","e")
+    // val zipped = abcde.zip(List(1, 2, 3))
+    // println(zipped)
+
+    // val list = List(8, 6)
+    // val sorted = isort(list)
+    // println(sorted)
+    
+    // val emptyList = List(1)
+    // println(emptyList.head)
+    // println(emptyList.tail)
+
+    // println(twice(_ + 1, 10))
+
+    // printMultiTable()
+
+    // val list = List(1,2,3,4,5)
+    // println(list.exists(_ < 2))
+    // list.foreach(x => 
+    //   println(x)
+    // )
+    // list.foreach((x: Int) => 
+    //   println(x)
+    // )
+    // val list2 = list.filter(x =>
+    //   x > 3
+    // )
+    // val list2 = list.filter(
+    //   _ > 3
+    // )
+    // println(list2)
+    
+    // val re = gcdLoop(17, 8)
+    // println(re)
+
+    // var line = scala.io.StdIn.readLine()
+
+    // var array = List(2, 5, 1, 2, 3)
+    // val a0 = array(0)
+    // println(a0)
+    // a0 match
+    //   case 1 =>
+    //     println("is 111")
+    //   case 2 =>
+    //     println("is 222")
+    //   case 3 =>
+    //     println("is 333")
+    //   case _ =>
+    //     println("is ---")
+    
+    
+    // val str = 
+    // a0 match
+    //   case 1 => "one"
+    //   case 2 => "two"
+    //   case 3 => "three"
+    //   case _ => "default"
+    // println(s"str: $str")
+
+
+
+    // while (line = scala.io.StdIn.readLine()) != "" do
+    //   println(s"Read: $line")
+
+    // while
+    //   val line = readLine()
+    //   println(s"Read: $line")
+    //   line != "!"
+    // do ()
 
     // val result = sumTail(List.empty)
     // val result = maxTail(List.empty)
@@ -221,8 +495,8 @@ object test66:
     // println(aa)
 
     // var str = "\\\\'"
-    var str = raw"\\\\'"
-    println(str)
+    // var str = raw"\\\\'"
+    // println(str)
 
 
     // val num = factLog(3)
@@ -352,6 +626,7 @@ object test66:
     // println(a)
     // val a = List(List(1,2,3),List(4,5,6))
     // val a = (1::2::3::Nil).reverse
-    val a = (1::2::3::Nil) ::: (4::5::6::Nil)
-    println(a)
+    // val a = (1::2::3::Nil) ::: (4::5::6::Nil)
+    // println(a)
+
   
