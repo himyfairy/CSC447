@@ -1,0 +1,56 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly fp3tests, Some(07407d65-a59e-484f-95ff-8542c999532d), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@45311a99, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"15","parents":[]},"eventTime":1633450716629,"message":"Compiling hw","dataKind":"compile-task","data":{"target":{"uri":"file:/Users/qilu/Documents/Git_Code/CSC447/hw/#hw/Compile"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala"},"buildTarget":{"uri":"file:/Users/qilu/Documents/Git_Code/CSC447/hw/#hw/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/subtyping.scala"},"buildTarget":{"uri":"file:/Users/qilu/Documents/Git_Code/CSC447/hw/#hw/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/fp1.scala"},"buildTarget":{"uri":"file:/Users/qilu/Documents/Git_Code/CSC447/hw/#hw/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/fp3.scala"},"buildTarget":{"uri":"file:/Users/qilu/Documents/Git_Code/CSC447/hw/#hw/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/dynamic.scala"},"buildTarget":{"uri":"file:/Users/qilu/Documents/Git_Code/CSC447/hw/#hw/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/fp2.scala"},"buildTarget":{"uri":"file:/Users/qilu/Documents/Git_Code/CSC447/hw/#hw/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/interpreter.scala"},"buildTarget":{"uri":"file:/Users/qilu/Documents/Git_Code/CSC447/hw/#hw/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala"},"buildTarget":{"uri":"file:/Users/qilu/Documents/Git_Code/CSC447/hw/#hw/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"15","parents":[]},"eventTime":1633450716653,"message":"Compiled hw","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/Users/qilu/Documents/Git_Code/CSC447/hw/#hw/Compile"},"errors":0,"warnings":0,"time":24}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"16","parents":[]},"eventTime":1633450716660,"message":"Compiling hw-test","dataKind":"compile-task","data":{"target":{"uri":"file:/Users/qilu/Documents/Git_Code/CSC447/hw/#hw/Test"}}})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/qilu/Documents/Git_Code/CSC447/hw/src/test/scala/subtypingtests.scala"},"buildTarget":{"uri":"file:/Users/qilu/Documents/Git_Code/CSC447/hw/#hw/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/qilu/Documents/Git_Code/CSC447/hw/src/test/scala/storagetests.scala"},"buildTarget":{"uri":"file:/Users/qilu/Documents/Git_Code/CSC447/hw/#hw/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/qilu/Documents/Git_Code/CSC447/hw/src/test/scala/UnitSpec.scala"},"buildTarget":{"uri":"file:/Users/qilu/Documents/Git_Code/CSC447/hw/#hw/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/qilu/Documents/Git_Code/CSC447/hw/src/test/scala/dynamictests.scala"},"buildTarget":{"uri":"file:/Users/qilu/Documents/Git_Code/CSC447/hw/#hw/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/qilu/Documents/Git_Code/CSC447/hw/src/test/scala/fp3tests.scala"},"buildTarget":{"uri":"file:/Users/qilu/Documents/Git_Code/CSC447/hw/#hw/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/qilu/Documents/Git_Code/CSC447/hw/src/test/scala/interpretertests.scala"},"buildTarget":{"uri":"file:/Users/qilu/Documents/Git_Code/CSC447/hw/#hw/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/qilu/Documents/Git_Code/CSC447/hw/src/test/scala/fp1tests.scala"},"buildTarget":{"uri":"file:/Users/qilu/Documents/Git_Code/CSC447/hw/#hw/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/qilu/Documents/Git_Code/CSC447/hw/src/test/scala/argpasstests.scala"},"buildTarget":{"uri":"file:/Users/qilu/Documents/Git_Code/CSC447/hw/#hw/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///Users/qilu/Documents/Git_Code/CSC447/hw/src/test/scala/fp2tests.scala"},"buildTarget":{"uri":"file:/Users/qilu/Documents/Git_Code/CSC447/hw/#hw/Test"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"16","parents":[]},"eventTime":1633450716682,"message":"Compiled hw-test","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/Users/qilu/Documents/Git_Code/CSC447/hw/#hw/Test"},"errors":0,"warnings":0,"time":22}})[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mfp3tests:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EX01 - member[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EX02 - allEqual[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EX03 - stringLengths[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EX04 - delete1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EX05 - delete2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EX06 - delete3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EX07 - removeDupes1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EX08 - removeDupes2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EX09 - splitAt[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EX10 - allDistinct[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32mfp3tests:\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- EX01 - member\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- EX02 - allEqual\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- EX03 - stringLengths\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- EX04 - delete1\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- EX05 - delete2\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- EX06 - delete3\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- EX07 - removeDupes1\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- EX08 - removeDupes2\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- EX09 - splitAt\u001b[0m"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[32m- EX10 - allDistinct\u001b[0m"})[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 248 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 10[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 10, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[36mRun completed in 248 milliseconds.\u001b[0m\n\u001b[36mTotal number of tests run: 10\u001b[0m\n\u001b[36mSuites: completed 1, aborted 0\u001b[0m\n\u001b[36mTests: succeeded 10, failed 0, canceled 0, ignored 0, pending 0\u001b[0m\n\u001b[32mAll tests passed.\u001b[0m"})[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed Oct 5, 2021, 11:18:37 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled request received: shutdown: JsonRpcRequestMessage(2.0, ♨4, shutdown, null})[0m

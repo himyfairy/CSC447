@@ -135,6 +135,8 @@ import scala.collection.immutable
 import scala.compiletime.ops.int
 import scala.language.postfixOps
 import scala.io.StdIn.readLine
+import scala.compiletime.ops.string
+import scala.annotation.tailrec
 
 object test66:
 
@@ -316,19 +318,192 @@ object test66:
   // def firstIndexNumGreaterThan(a: Int, xs: List[Int]): Int =
   //   xs.indexOf(firstNumGreaterThan(a, xs))
 
-  def firstIndexNumGreaterThan(a: Int, xs: List[Int]): Int =
-    xs match 
-      case List() => throw java.util.NoSuchElementException()
-      case x :: xs1 => 
-        if x >= a then xs.indexOf(x)
-        else firstIndexNumGreaterThan(a, xs1)
+  // def g[X, Y] (xs: List[X], f: List[X]=>List[Y]) : List[Y] = {
+  //   xs match
+  //     case Niil => Nil
+  //     case y::ys => f(y) :: g(ys, f)
+  // }
+  // def g[X, Y] (xs: List[X], f: X=>Y) : List[Y] = {
+  //   xs match
+  //     case Niil => Nil
+  //     case y::ys => f(y) :: g(ys, f)
+  // }
+
+  def ffff[X] (xss: List[List[X]]): List[X] = 
+    for (xs <- xss; x <- xs) yield x
+
+
+  // def firstIndexNumGreaterThan(a: Int, xs: List[Int]): Int =
+  //   xs match 
+  //     case List() => throw java.util.NoSuchElementException()
+  //     case x :: xs1 => 
+  //       if x >= a then xs.indexOf(x)
+  //       else firstIndexNumGreaterThan(a, xs1)
 
   // def hahahaha(xs: List[String]): List[String] = xs.foldLeft("")(_ + _)
+
+  def member(a: Int, xs: List[Int]): Boolean =
+    xs match
+      case List() => false
+      case x::xs1 => 
+        if x == a then true
+        else member(a, xs1)
+
+  def stringLengths(xs: List[String]): List[(String, Int)] =
+    xs.map(str => (str, str.length))
+
+  def delete1[X](x: X, ys: List[X]): List[X] =
+    ys match 
+      case List() => ys
+      case y::ys1 => 
+        if x == y then delete1(x, ys1)
+        else y::delete1(x, ys1)
+
+  def delete2[X](x: X, ys: List[X]): List[X] =
+    for y <- ys
+      if x != y yield y
+
+  def delete3[X](x: X, ys: List[X]): List[X] =
+    ys.filter(str => x != str)
+
+  def removeDupes1[X](xs: List[X]): List[X] =
+    xs match 
+      case Nil => xs
+      case x:: Nil => xs
+      case x::xs1 => 
+        if x == xs1.head then removeDupes1(xs1)
+        else x::removeDupes1(xs1)
+
+  def removeDupes3[X](count: Int, xs: List[X]): List[Int] =
+    xs match 
+      case Nil => List(0)
+      case x:: Nil => List(count)
+      case x::xs1 => 
+        if x == xs1.head then removeDupes3(count+1, xs1)
+        else count::removeDupes3(1, xs1)
+
+  def removeDupes2[X](xs: List[X]): List[(Int, X)] =
+    def removeDupes2_aux[X](count: Int, xs: List[X]): List[Int] =
+      xs match 
+        case Nil => List(0)
+        case x:: Nil => List(count)
+        case x::xs1 => 
+          if x == xs1.head then removeDupes2_aux(count+1, xs1)
+          else count::removeDupes2_aux(1, xs1)
+    
+    removeDupes2_aux(1, xs).zip(removeDupes1(xs))
+
+  def allDistinct(xs: List[Int]): Boolean =
+    xs match 
+      case List() => true
+      case x::xs1 => 
+        if member(x, xs1) == true then false
+        else allDistinct(xs1)
+
+  def f [X,Y] (a:Option[X], g:X=>Y) : Option[Y] = {
+    a match {
+      case None     => None
+      case Some (x) => Some (g (x))
+    }
+  }
+
+  def index [X] (xs:List[X], n:Int) : Option[X] = {
+    xs match {
+      case Nil               => None
+        case y::ys if (n == 0) => Some (y)
+      case _::ys             => index (ys, n - 1)
+    }
+  }
+
+  @tailrec    
+  def f [X] (xs:List[X], ys:List[X]) : List[X] = {
+    xs match {
+      case Nil   => ys
+      case z::zs => f (zs, z::ys)
+    }
+  }
+
+  enum Result[+X,+Y]:                                                                                   
+    case Ok(n:X)
+    case Error(s:Y) 
+  import Result.*
+
+  def combine[U,X,Y] (us:List[U], f:U=>Result[X,Y]) : Result[List[X],List[Y]] = 
+  us match 
+    case Nil   => Ok (Nil)
+    case v::vs =>
+      (f (v), combine (vs, f)) match 
+        case (Error (s), Error (ss)) => Error (s::ss)
+        case (Ok    (n), Error (ss)) => Error (ss)
+        case (Error (s), Ok    (ns)) => Error (List (s))
+        case (Ok    (n), Ok    (ns)) => Ok (n::ns)
+
+  def splitAt[X](n: Int, xs: List[X]): (List[X], List[X]) =
+    (n, xs) match
+      case(_, Nil) => (Nil, Nil)
+      case (-1, xs) => (List(), xs)
+      case (n, x::xs) => 
+        val(la, lb) = splitAt(n-1, xs) 
+        if(n > 0) then (x::la, lb) 
+        else (la, x::lb)
+
+  def allEqual(xs: List[Int]): Boolean =
+    xs match
+      case Nil => true
+      case _::Nil => true
+      case x::xs1 =>
+        if x != xs1.head then false
+        else allEqual(xs1)
 
   @main def mmm() = 
   //List(a, b, c).foldLeft(z)(op) equals op(op(op(z, a), b), c)
     println("-------")
+     // 1 2
+    // val a = List(List(1), List(2), List(3))
+    // val re = ffff(a)
+    // println(re)
 
+    // val a = member (3, List (4, 6, 8, 5))
+
+    // val test = List("One Fish", "Two Fish", "Red Fish", "Blue Fish")
+    // val a = test.map(noun => noun.length)
+
+    // val a = stringLengths(List("the", "rain"))
+    // val a = delete3 ("the", List ("the","the","was","a","product","of","the","1980s"))
+    //List (1,2,3,4,5,6,7,8,9,2,9)
+    //((2,1),(1,2),(3,3),(2,4),(1,5),(1,6),(2,7),(1,8),(1,9),(3,2),(1,9))
+    // val a = removeDupes2 (List (1,1,2,3,3,3,4,4,5,6,7,7,8,9,2,2,2,9))
+    // val a = allDistinct (List (1,2,3,2,4,5))
+    // val a = f (index (List (10, 11, 12), 1), (n:Int) => n * 2)
+    // val a = f (index (List (10, 11, 12), 5), (n:Int) => n * 2)
+    // val a = combine (List(1,2,3), (n:Int) => if (n%2==0) Ok (n) else Error (n))
+    // val a = combine (List(0,2,4), (n:Int) => if (n%2==0) Ok (n) else Error (n))
+    // val a = splitAt(3,List(1,11,21,31,41,51))
+
+    val a = allEqual (List (5))
+    println(a)
+
+    // val a = List(2, 1, 3, 2, 1, 1, 2, 1, 1, 3, 1)
+
+    // val p1 = List("a", "b")
+    // val p2 = List(3, 4)
+    // val p3 = p1.zip(p2)
+    // val p4 = p1::p2::Nil
+    // val a = List(1, 2, 3)
+    // val b = 4::a
+    // println(b)
+    // println(p4)
+    // println(p3)
+
+    // val a = "a"
+    // val b = List()
+    // val c = b :+ a
+    // println(c)
+
+    // val b = List(1, 2, 3)
+    // val c = 4
+    // val d = c::b
+    // println(d)
 
     // val xs = List("a", "b", "c", "d")
     // val a = foldLeft(xs, "", testFun)
@@ -339,8 +514,8 @@ object test66:
     // val b = xs.foldLeft("")(_+_+";")
     // println(s"b:$b")
 
-    val xs = List(1, 2, 3, 4, 5, 3)
-    val a = firstIndexNumGreaterThan(2, xs)
+    // val xs = List(1, 2, 3, 4, 5, 3)
+    // val a = firstIndexNumGreaterThan(2, xs)
     // val a = firstNumGreaterThan(2, xs)
     // val a = foldLeft(xs, "@", fkh)
     // val ys = List(6, 7, 8)
@@ -359,7 +534,7 @@ object test66:
     // val a = foldRight(xs.reverse, "@", plusTerm)
     // val a = joinTerminateRight(xs, ";")
     // val a = foldLeft(xs, "@", plusTerm)
-    println(a)
+    // println(a)
 
 
 

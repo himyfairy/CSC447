@@ -44,8 +44,11 @@ object fp3:
   // - member (5, List (4, 6, 8, 5)) == true
   // - member (3, List (4, 6, 8, 5)) == false
   def member(a: Int, xs: List[Int]): Boolean =
-    // TODO: Provide definition here.
-    throw UnsupportedOperationException()
+    xs match
+      case Nil => false
+      case x::xs1 => 
+        if x == a then true
+        else member(a, xs1)
 
   // EXERCISE 2: complete the following recursive definition of an "allEqual"
   // function to check whether all elements in a list of integers are equal.
@@ -58,8 +61,12 @@ object fp3:
   // - allEqual (List (5, 5, 6, 5)) == false
   // - allEqual (List (5, 5, 5, 6)) == false
   def allEqual(xs: List[Int]): Boolean =
-    // TODO: Provide definition here.
-    throw UnsupportedOperationException()
+    xs match
+      case Nil => true
+      case _::Nil => true
+      case x::xs1 =>
+        if x != xs1.head then false
+        else allEqual(xs1)
 
   // EXERCISE 3: complete the definition of the following function that
   // computes the length of each String in a list, and returns the original
@@ -71,8 +78,7 @@ object fp3:
   //
   // You can use the "map" method of the List class.
   def stringLengths(xs: List[String]): List[(String, Int)] =
-    // TODO: Provide definition here.
-    throw UnsupportedOperationException()
+    xs.map(str => (str, str.length))
 
   // EXERCISE 4: complete the function definition for "delete1" that takes
   // an element "x" and a list "ys", then returns the list where any
@@ -84,9 +90,11 @@ object fp3:
   // - delete1 ("the", List ("the","the","was","a","product","of","the","1980s"))
   //                == List ("was","a","product","of","1980s")
   def delete1[X](x: X, ys: List[X]): List[X] =
-    // TODO: Provide definition here.
-    throw UnsupportedOperationException()
-
+    ys match 
+      case Nil => ys
+      case y::ys1 => 
+        if x == y then delete1(x, ys1)
+        else y::delete1(x, ys1)
 
   // EXERCISE 5: complete the function definition for "delete2" below.  It
   // must have the same behavior as "delete1".
@@ -94,8 +102,8 @@ object fp3:
   // It must be written using "for comprehensions" and not use recursion
   // explicitly.
   def delete2[X](x: X, ys: List[X]): List[X] =
-    // TODO: Provide definition here.
-    throw UnsupportedOperationException()
+    for y <- ys
+      if x != y yield y
 
   // EXERCISE 6: complete the function definition for "delete3" below.  It
   // must have the same behavior as "delete1".
@@ -103,8 +111,7 @@ object fp3:
   // It must be written using the builtin "filter" method for Lists and not
   // use recursion explicitly.
   def delete3[X](x: X, ys: List[X]): List[X] =
-    // TODO: Provide definition here.
-    throw UnsupportedOperationException()
+    ys.filter(str => x != str)
 
   // EXERCISE 7: complete the function definition for "removeDupes1" below.
   // It takes a list as argument, then returns the same list with consecutive
@@ -117,11 +124,12 @@ object fp3:
   // - removeDupes1 (List (1,1,2,3,3,3,4,4,5,6,7,7,8,9,2,2,2,9))
   //              == List (1,2,3,4,5,6,7,8,9,2,9)
   def removeDupes1[X](xs: List[X]): List[X] =
-    // TODO: Provide definition here.
-    throw UnsupportedOperationException()
-
-
-
+    xs match 
+      case Nil => xs
+      case x:: Nil => xs
+      case x::xs1 => 
+        if x == xs1.head then removeDupes1(xs1)
+        else x::removeDupes1(xs1)
 
   // EXERCISE 8: write a function "removeDupes2" that behaves like
   // "removeDupes1", but also includes a count of the number of consecutive
@@ -133,10 +141,15 @@ object fp3:
   // - removeDupes2 (List (1,1,2,3,3,3,4,4,5,6,7,7,8,9,2,2,2,9))
   //              == List ((2,1),(1,2),(3,3),(2,4),(1,5),(1,6),(2,7),(1,8),(1,9),(3,2),(1,9))
   def removeDupes2[X](xs: List[X]): List[(Int, X)] =
-    // TODO: Provide definition here.
-    throw UnsupportedOperationException()
-
-
+    def removeDupes2_aux[X](count: Int, xs: List[X]): List[Int] =
+      xs match 
+        case Nil => List(0)
+        case x:: Nil => List(count)
+        case x::xs1 => 
+          if x == xs1.head then removeDupes2_aux(count+1, xs1)
+          else count::removeDupes2_aux(1, xs1)
+    
+    removeDupes2_aux(1, xs).zip(removeDupes1(xs))
 
   // EXERCISE 9: complete the following definition of a function that splits
   // a list into a pair of two lists.  The offset for the the split position
@@ -167,9 +180,13 @@ object fp3:
   //
 
   def splitAt[X](n: Int, xs: List[X]): (List[X], List[X]) =
-    // TODO: Provide definition here.
-    throw UnsupportedOperationException()
-
+    (n, xs) match
+      case(_, Nil) => (Nil, Nil)
+      case (-1, xs) => (Nil, xs)
+      case (n, x::xs) => 
+        val(la, lb) = splitAt(n-1, xs) 
+        if(n > 0) then (x::la, lb) 
+        else (la, x::lb)
 
   // EXERCISE 10: complete the following definition of an "allDistinct"
   // function that checks whether all values in list are distinct.  You
@@ -183,5 +200,8 @@ object fp3:
   // - allDistinct (List (1,2,3,4,5,1)) == false
   // - allDistinct (List (1,2,3,2,4,5)) == false
   def allDistinct(xs: List[Int]): Boolean =
-    // TODO: Provide definition here.
-    throw UnsupportedOperationException()
+    xs match 
+      case Nil => true
+      case x::xs1 => 
+        if member(x, xs1) == true then false
+        else allDistinct(xs1)

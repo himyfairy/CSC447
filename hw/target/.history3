@@ -44,3 +44,10 @@
 1632794158567:testOnly fp2tests -- -n fp2ex01
 1632892803050:testOnly fp2tests -- -n fp2ex02
 1632892823854:testOnly fp2tests
+1633373857243::quit
+1633450215287:console
+1633450233421:testOnly fp1tests -- -n fp1ex05
+1633450250772:testOnly fp3tests -- -n fp3ex01
+1633450257403:testOnly fp3tests
+1633450272729:testOnly fp3tests -- -n fp3ex02
+1633450607059:testOnly fp3tests

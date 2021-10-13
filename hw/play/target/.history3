@@ -5,3 +5,8 @@
 1632337138805:console
 1632778272732:compile
 1632794032075:testOnly fp1tests -- -n fp1ex05
+1633450088327:testOnly fp1tests
+1633450114469:testOnly fp1tests -- -n fp1ex05
+1633450119072:scala
+1633450127743:console
+1633450572351:testOnly fp3tests
