@@ -1,0 +1,4 @@
+[debug] [csc447-test] Classpath dependencies List()
+[debug] [csc447-test] Dependencies from configurations List(csc447)
+[debug] Bloop wrote the configuration of project 'csc447-test' to '/Users/qilu/Documents/Git_Code/CSC447/.bloop/csc447-test.json'
+[success] Generated .bloop/csc447-test.json

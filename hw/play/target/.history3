@@ -10,3 +10,9 @@
 1633450119072:scala
 1633450127743:console
 1633450572351:testOnly fp3tests
+1634164044928:scala
+1634164056962:5 :: 6 :: 7 :: Nil
+1634164068219:scala
+1634680166478:testOnly storagetests -- -n storageex05
+1634680239721:testOnly fp1tests -- -n fp1ex05
+1634680363682:testOnly fp1tests

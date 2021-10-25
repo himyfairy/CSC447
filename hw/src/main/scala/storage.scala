@@ -36,16 +36,16 @@ object storage:
 
   // EXERCISE 1: Complete the following definition, so that "constant5" is a
   // function that returns 5 whenever it is invoked.
-  val constant5: () => Int =
-      // TODO: Complete the definition.
-      () => throw UnsupportedOperationException()
+  val constant5: () => Int = {
+    () => 5
+  }
 
   // EXERCISE 2: Complete the following definition, so that "constant" is a
   // function that when invoked with integer n returns a function that
   // returns n whenever it is invoked.
-  val constant: Int => () => Int =
-        // TODO: Complete the definition.
-        (n: Int) => throw UnsupportedOperationException()
+  val constant: Int => () => Int = {
+    (n: Int) => (() => n)
+  }
 
   // EXERCISE 3: Complete the following definition, so that "counter0" is a
   // (stateful) function that returns 0 when it is first invoked, then 1,
@@ -55,9 +55,13 @@ object storage:
   // "{...}" body of "counter0".
 
   // This rule applies throughout this assignment.
-  val counter0: () => Int =
-    // TODO: Complete the definition.
-    () => throw UnsupportedOperationException()
+  val counter0: () => Int = {
+    var n = -1
+    () => { 
+      n = n + 1
+      n
+    }
+  }
 
   // EXERCISE 4: Complete the following definition, so that "counter" is a
   // (stateless) function that when invoked with integer n returns a
@@ -67,9 +71,15 @@ object storage:
   // The counters must be independent, i.e., running "counter (0)" twice
   // should yield two functions that do not interfere with one another's
   // state.
-  val counter: Int => () => Int =
-    // TODO: Complete the definition.
-    (n: Int) => throw UnsupportedOperationException()
+  val counter: Int => () => Int = {
+    (n: Int) => {
+      var num = n - 1
+      () => {
+        num = num + 1
+        num
+      }
+    }
+  }
 
   // EXERCISE 5: Complete the following definition, so that "getAndSet" is a
   // (stateless) function that when invoked with integer n returns a pair of
@@ -85,9 +95,14 @@ object storage:
   // Multiple calls to "getAndSet" should yield independent pairs, i.e., the
   // first pair returned should not share any state with the second pair
   // returned.
-  val getAndSet: Int => (() => Int, Int => Unit) =
-    // TODO: Complete the definition.
-    (n: Int) => throw UnsupportedOperationException()
+  val getAndSet: Int => (() => Int, Int => Unit) = {
+    (n: Int) => {
+      var num = n 
+      def get: () => Int = () => num
+      def set: Int => Unit = (m: Int) => num = m
+      (get, set)
+    }
+  }
 
   // EXERCISE 6: Complete the following definition, so that "getAndSetSpy" is
   // a (stateful) function that when invoked it returns a pair.
@@ -114,7 +129,24 @@ object storage:
   //
   // The result is 2, not 1.
   //
-  val getAndSetSpy: () => (() => Int, Int => (() => Int, Int => Unit)) =
-    // TODO: Complete the definition.
-    () => throw UnsupportedOperationException()
+  val getAndSetSpy: () => (() => Int, Int => (() => Int, Int => Unit)) = {
+    var count = 0
+    () => {
+      val getAndSet: Int => (() => Int, Int => Unit) = {
+        (n: Int) => {
+          var num = n 
+          def get: () => Int = () => num
+          def set: Int => Unit = (m: Int) => {
+            count = count + 1
+            num = m
+          }
+          (get, set)
+        }
+      }
+      
+      var getCount: () => Int = {() => count}
+      var getAndSetFun: Int => (() => Int, Int => Unit) = getAndSet
+      (getCount, getAndSetFun)
+    }
+  }
 

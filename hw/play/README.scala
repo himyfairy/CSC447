@@ -137,6 +137,7 @@ import scala.language.postfixOps
 import scala.io.StdIn.readLine
 import scala.compiletime.ops.string
 import scala.annotation.tailrec
+// import T.*
 
 object test66:
 
@@ -455,13 +456,110 @@ object test66:
         if x != xs1.head then false
         else allEqual(xs1)
 
+  def test1[x] (xs: List[x]) : List[x] = 
+    xs match
+      case Nil => xs
+      case y::ys => y :: test1(ys)
+
+  // def foldr[A, B] (f:(A, B)=>B, e:B, xs: List[A]):B = 
+  //   xs match 
+  //     case Nil => e
+  //     case y :: ys => f(y, foldr(f, e, ys))
+
+  // def foo (s: String, t: String) = s + "," + t
+
+  // def test2[A](xss:List[List[A]]) = 
+  //   for xs <- xss
+  //   if (xs.length > 0)
+  //     x <- xs.tail
+  //     yield x
+
+  def foo(xs:List[String]) : List[String] = xs match
+    case Nil => Nil
+    case y :: ys => bar(ys)
+  
+  def bar(xs:List[String]) : List[String] = xs match
+    case Nil => Nil
+    case y :: ys => y :: (foo(ys))
+
+  // def test3[X](xs:List[X]):List[X] = xs match
+  //   case Nil => Nil
+  //   case y :: ys => test3(ys) ::: List(y)
+
+  // def test4[A,B](xs:List[A],ys:List[B]):List[(A,B)] = 
+  //   (xs, ys) match
+  //     case (Nil,Nil) => Nil
+  //     case (a :: as, b :: bs) => (a, b) :: test4(as, bs)
+
+  // def test5(x:List[Int],y:List[Int]) : List[Int] = x ::: y
+
+  // def test6 (fs: List[List[Int] => Int]) : List[Int] = 
+  //   fs.map((f)=> f(List(1,2,3,4)))
+
+  // def aa[X](xs:List[X]) : List[X] = 
+  //   xs match
+  //     case Nil => Nil
+  //     case y :: ys => aa(ys) ::: List(y)
+  
+  // def bb[X](xs:List[X],ys:List[X]) : List[X] = 
+  //   xs match
+  //     case Nil => ys
+  //     case z :: zs => bb(zs, z::ys)
+  
+
+  // enum T:
+  //   case L
+  //   case N(v:Int, l:T, r:T)
+
+  // def test7(t:T):Int = t match
+  //   case L => 0
+  //   case N(v,l,r) => (test7(l)-test7(r)) + v
+
+
+  // def test9(xs:List[Int], ys:List[Int]) : List[Int] = 
+  //   def add(x:Int, y: Int) = x + y
+  //   (xs, ys) match
+  //     case (Nil,Nil) => Nil
+  //     case (a::b, c::d) => add(a, d) :: (test9(b, c))
+
+
   @main def mmm() = 
   //List(a, b, c).foldLeft(z)(op) equals op(op(op(z, a), b), c)
     println("-------")
+    val a = 10
+    val b = 20
+    println(s"a: $a, b: $b")
+    if (a == b) println("YES---")
+    else println("NO---")
+    // val a = test1(List(1, 2, 3))
+    // val a = 5 :: 6 :: 7 :: Nil
+    // val a = List(1, 2) :: List(3, 4, 5) :: Nil
+    // val a = foldr(foo, "", List("the", "rain", "in", "spain"))
+    // val a = test2(List(List(0,1,2),List(),List(3,4),List(5)))
+    // val a = foo(List("the","rain","in","spain"))
+    // val list = List(List(0,1,2),List(3,4,5),List(6,7,8))
+    // val a = list.map(x => x.reverse)
+    // val a = test3(List(1,9,5))
+    // val a = test4(List(1,2),List(('a',6),('b',7)))
+    // val us = List(1,2,3)
+    // val vs = List(4,5,6)
+    // val a1 = bb(us,vs)
+    // val a2 = bb(vs,us)
+    // val a = ()
+    // println(a1)
+    // println(a2)
+
      // 1 2
     // val a = List(List(1), List(2), List(3))
     // val re = ffff(a)
     // println(re)
+    // val a = test7( N(5,
+    //                 N(6,
+    //                   N(3,L,L),
+    //                   N(2,L,L),
+    //                 N(4,L,L)))
+    // val a = test9(List(1,2),List(3,4))
+    // println(a)
 
     // val a = member (3, List (4, 6, 8, 5))
 
@@ -480,8 +578,8 @@ object test66:
     // val a = combine (List(0,2,4), (n:Int) => if (n%2==0) Ok (n) else Error (n))
     // val a = splitAt(3,List(1,11,21,31,41,51))
 
-    val a = allEqual (List (5))
-    println(a)
+    // val a = allEqual (List (5))
+    // println(a)
 
     // val a = List(2, 1, 3, 2, 1, 1, 2, 1, 1, 3, 1)
 

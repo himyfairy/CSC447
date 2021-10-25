@@ -17863,3 +17863,1578 @@ No more data in the server stdin, exiting...
 No more data in the server stdin, exiting...
 No more data in the server stdin, exiting...
 No more data in the server stdin, exiting...
+[0m2021.10.13 16:04:49 INFO  Started: Metals version 0.10.7 in workspace '/Users/qilu/Documents/Git_Code/CSC447/hw' for client Visual Studio Code 1.60.0.[0m
+[0m2021.10.13 16:04:54 INFO  time: initialize in 4.86s[0m
+[0m2021.10.13 16:04:55 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher17952858679222866928/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.10.13 16:04:54 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/fp3.scala[0m
+[0m2021.10.13 16:04:55 INFO  skipping build import with status 'Requested'[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+[0m2021.10.13 16:05:03 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.9...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/Users/qilu/Documents/Git_Code/CSC447/hw/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/qilu/Documents/Git_Code/CSC447/hw/.bloop/hw-test.json'
+[0m[32m[D][0m Loading project from '/Users/qilu/Documents/Git_Code/CSC447/hw/.bloop/hw.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:3.0.1.
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.8/jackson-dataformat-yaml-2.9.8.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.42.12/flexmark-ext-anchorlink-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.42.12/flexmark-ext-autolink-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.42.12/flexmark-ext-emoji-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.42.12/flexmark-ext-gfm-strikethrough-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.42.12/flexmark-ext-gfm-tables-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.42.12/flexmark-ext-gfm-tasklist-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.42.12/flexmark-ext-ins-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.42.12/flexmark-ext-superscript-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.42.12/flexmark-ext-tables-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.42.12/flexmark-ext-wikilink-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.42.12/flexmark-ext-yaml-front-matter-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.42.12/flexmark-formatter-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.42.12/flexmark-html-parser-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.42.12/flexmark-jira-converter-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.42.12/flexmark-util-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.42.12/flexmark-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.6.7/liqp-0.6.7.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.0.7/ST4-4.0.7.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.1/antlr-runtime-3.5.1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr/3.5.1/antlr-3.5.1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.1.0-scala-1/scala-asm-9.1.0-scala-1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.0.1/scala3-compiler_3-3.0.1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.0.1/scala3-interfaces-3.0.1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.0.1/scala3-library_3-3.0.1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.0.1/scala3-tasty-inspector_3-3.0.1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.0.1/scaladoc_3-3.0.1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.0.1/tasty-core_3-3.0.1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar
+[0m[32m[D][0m Missing analysis file for project 'hw-test'
+[0m[32m[D][0m Missing analysis file for project 'hw'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher17952858679222866928/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher17952858679222866928/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.13 16:05:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/qilu/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.10.13 16:05:04 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher3728513487462918925/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher3728513487462918925/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher3728513487462918925/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.13 16:05:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/qilu/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.10.13 16:05:04 INFO  time: Connected to build server in 9.68s[0m
+[0m2021.10.13 16:05:04 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.13 16:05:04 INFO  time: Imported build in 0.3s[0m
+Oct 13, 2021 4:05:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FUsers%2Fqilu%2FDocuments%2FGit_Code%2FCSC447%2Fhw%2Fsrc%2Fmain%2Fscala%2Ffp3.scala:34: error: ; expected but : found
+object fp3:
+          ^
+file%3A%2F%2F%2FUsers%2Fqilu%2FDocuments%2FGit_Code%2FCSC447%2Fhw%2Fsrc%2Fmain%2Fscala%2Ffp3.scala:34: error: ; expected but : found
+object fp3:
+          ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:941)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:947)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:957)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:961)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5060)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5066)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5297)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5256)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5239)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5238)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5244)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$264.apply(ScalametaParser.scala:5308)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.10.13 16:05:10 INFO  no build target: using presentation compiler with only scala-library: 3.0.1[0m
+[0m2021.10.13 16:05:11 INFO  time: indexed workspace in 5.96s[0m
+[0m2021.10.13 16:05:11 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/fp3.scala[0m
+[0m2021.10.13 16:05:15 INFO  time: code lens generation in 18s[0m
+[0m2021.10.13 16:05:15 INFO  time: code lens generation in 3.44s[0m
+[0m2021.10.13 16:05:52 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 16:05:57 INFO  time: code lens generation in 3.23s[0m
+Oct 13, 2021 4:06:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+[0m2021.10.13 16:06:04 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 16:06:07 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+Oct 13, 2021 5:23:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 124
+[0m2021.10.13 17:24:32 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 17:25:04 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 17:29:07 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 17:30:14 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 17:35:36 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 17:35:42 INFO  time: code lens generation in 1.07s[0m
+[0m2021.10.13 17:36:09 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 17:36:56 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 17:36:56 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 17:39:10 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 17:39:10 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+Oct 13, 2021 5:39:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1546
+[0m2021.10.13 17:39:46 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 17:41:41 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 17:41:44 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 17:41:44 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 17:42:34 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 17:42:57 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+Oct 13, 2021 5:44:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2641
+Oct 13, 2021 5:44:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2729
+[0m2021.10.13 17:44:17 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+Oct 13, 2021 5:45:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2882
+Oct 13, 2021 5:45:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2910
+[0m2021.10.13 17:45:57 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 17:45:58 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 17:46:17 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 17:48:24 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 17:49:05 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 17:49:45 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 17:51:09 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 18:02:26 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 18:02:29 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 18:02:44 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 18:03:01 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 18:09:31 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 18:14:13 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 18:14:26 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 18:14:33 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 18:14:53 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 18:15:18 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+Oct 13, 2021 6:15:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5196
+Oct 13, 2021 6:15:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5199
+[0m2021.10.13 18:16:05 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 18:16:49 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 18:17:28 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 18:17:30 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+Oct 13, 2021 6:18:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5538
+Oct 13, 2021 6:19:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5648
+Oct 13, 2021 6:19:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5841
+[0m2021.10.13 18:19:45 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 18:21:10 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 18:21:17 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 18:22:04 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 18:22:47 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 18:22:54 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 18:24:19 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 18:24:36 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 18:26:18 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 18:26:18 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 18:27:15 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 18:27:15 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+Oct 13, 2021 6:27:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6771
+[0m2021.10.13 18:27:15 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 18:28:12 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 18:30:41 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 18:30:41 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+Exception in thread "pool-4-thread-1" java.lang.AssertionError: NoDenotation.owner
+	at dotty.tools.dotc.core.SymDenotations$NoDenotation$.owner(SymDenotations.scala:2428)
+	at scala.meta.internal.pc.SymbolPrinter.ownerTypeString$1(SymbolPrinter.scala:49)
+	at scala.meta.internal.pc.SymbolPrinter.hoverDetailString(SymbolPrinter.scala:60)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$9(ScalaPresentationCompiler.scala:353)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.hover$$anonfun$1(ScalaPresentationCompiler.scala:359)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.withNonInterruptableCompiler$$anonfun$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[0m2021.10.13 18:30:48 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+Oct 13, 2021 6:31:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6938
+[0m2021.10.13 18:33:12 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 18:34:01 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 18:34:23 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 18:35:14 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+Oct 13, 2021 6:35:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7723
+Oct 13, 2021 6:35:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7745
+Oct 13, 2021 6:35:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7753
+[0m2021.10.13 18:35:34 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.13 19:08:45 INFO  shutting down Metals[0m
+[0m2021.10.13 19:08:45 INFO  Shut down connection with build server.[0m
+[0m2021.10.13 19:08:45 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.17 15:02:31 INFO  Started: Metals version 0.10.7 in workspace '/Users/qilu/Documents/Git_Code/CSC447/hw' for client Visual Studio Code 1.60.0.[0m
+[0m2021.10.17 15:02:36 INFO  time: initialize in 5.22s[0m
+[0m2021.10.17 15:02:37 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher13187025806370470035/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.10.17 15:02:36 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.17 15:02:36 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.17 15:02:37 INFO  skipping build import with status 'Requested'[0m
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher13187025806370470035/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher13187025806370470035/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.17 15:02:38 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/qilu/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.10.17 15:02:38 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher18002623365199076684/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher18002623365199076684/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher18002623365199076684/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.17 15:02:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/qilu/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.10.17 15:02:37 INFO  time: Connected to build server in 1.34s[0m
+[0m2021.10.17 15:02:37 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.17 15:02:44 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+Oct 17, 2021 3:02:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+[0m2021.10.17 15:02:44 INFO  time: Imported build in 0.2s[0m
+[0m2021.10.17 15:02:48 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+Oct 17, 2021 3:02:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FUsers%2Fqilu%2FDocuments%2FGit_Code%2FCSC447%2Fhw%2Fsrc%2Fmain%2Fscala%2Fstorage.scala:35: error: ; expected but : found
+object storage:
+              ^
+file%3A%2F%2F%2FUsers%2Fqilu%2FDocuments%2FGit_Code%2FCSC447%2Fhw%2Fsrc%2Fmain%2Fscala%2Fstorage.scala:35: error: ; expected but : found
+object storage:
+              ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:941)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:947)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:957)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:961)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5060)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5066)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5297)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5256)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5239)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5238)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5244)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$264.apply(ScalametaParser.scala:5308)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.10.17 15:02:50 INFO  time: code lens generation in 12s[0m
+Oct 17, 2021 3:02:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FUsers%2Fqilu%2FDocuments%2FGit_Code%2FCSC447%2Fhw%2Fsrc%2Fmain%2Fscala%2Fstorage.scala:35: error: ; expected but : found
+object storage:
+              ^
+file%3A%2F%2F%2FUsers%2Fqilu%2FDocuments%2FGit_Code%2FCSC447%2Fhw%2Fsrc%2Fmain%2Fscala%2Fstorage.scala:35: error: ; expected but : found
+object storage:
+              ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:941)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:947)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:957)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:961)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5060)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5066)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5297)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5256)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5239)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5238)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5244)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$264.apply(ScalametaParser.scala:5308)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.10.17 15:02:56 INFO  no build target: using presentation compiler with only scala-library: 3.0.1[0m
+[0m2021.10.17 15:02:56 INFO  time: indexed workspace in 11s[0m
+[0m2021.10.17 15:02:56 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.17 15:02:56 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.17 15:03:00 INFO  time: code lens generation in 1.39s[0m
+[0m2021.10.17 18:49:07 WARN  no build target for: /Users/qilu/Library/Mobile Documents/com~apple~CloudDocs/Documents/Class/CSC 447/Quiz答案/CSC-447-Concepts-of-Programming-Languages-master/storage.scala[0m
+Oct 17, 2021 6:49:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+Oct 17, 2021 6:49:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23
+[0m2021.10.17 18:49:21 INFO  shutting down Metals[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.17 18:49:21 INFO  Shut down connection with build server.[0m
+[0m2021.10.17 18:49:21 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.10.19 14:55:23 INFO  Started: Metals version 0.10.7 in workspace '/Users/qilu/Documents/Git_Code/CSC447/hw' for client Visual Studio Code 1.60.0.[0m
+[0m2021.10.19 14:55:28 INFO  time: initialize in 4.87s[0m
+[0m2021.10.19 14:55:29 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher10878927278765307330/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.10.19 14:55:28 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/test/scala/storagetests.scala[0m
+[0m2021.10.19 14:55:29 INFO  skipping build import with status 'Requested'[0m
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher10878927278765307330/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher10878927278765307330/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.19 14:55:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/qilu/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.10.19 14:55:30 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher6085829358961751401/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher6085829358961751401/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher6085829358961751401/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.19 14:55:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/qilu/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.10.19 14:55:30 INFO  time: Connected to build server in 1.67s[0m
+[0m2021.10.19 14:55:30 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 14:55:30 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.19 14:55:36 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.19 14:55:36 INFO  time: Imported build in 0.19s[0m
+[0m2021.10.19 14:55:41 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+Oct 19, 2021 2:55:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FUsers%2Fqilu%2FDocuments%2FGit_Code%2FCSC447%2Fhw%2Fsrc%2Ftest%2Fscala%2Fstoragetests.scala:4: error: ; expected but : found
+class storagetests extends UnitSpec:
+                                   ^
+file%3A%2F%2F%2FUsers%2Fqilu%2FDocuments%2FGit_Code%2FCSC447%2Fhw%2Fsrc%2Ftest%2Fscala%2Fstoragetests.scala:4: error: ; expected but : found
+class storagetests extends UnitSpec:
+                                   ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:941)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:947)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:957)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:961)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5060)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5066)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5297)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5256)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5239)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5238)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5244)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$264.apply(ScalametaParser.scala:5308)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+Oct 19, 2021 2:55:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+Oct 19, 2021 2:55:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FUsers%2Fqilu%2FDocuments%2FGit_Code%2FCSC447%2Fhw%2Fsrc%2Fmain%2Fscala%2Fstorage.scala:35: error: ; expected but : found
+object storage:
+              ^
+file%3A%2F%2F%2FUsers%2Fqilu%2FDocuments%2FGit_Code%2FCSC447%2Fhw%2Fsrc%2Fmain%2Fscala%2Fstorage.scala:35: error: ; expected but : found
+object storage:
+              ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:941)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:947)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:957)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:961)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5060)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5066)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5297)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5256)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5239)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5238)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5244)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$264.apply(ScalametaParser.scala:5308)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.10.19 14:55:43 INFO  time: code lens generation in 12s[0m
+Oct 19, 2021 2:55:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FUsers%2Fqilu%2FDocuments%2FGit_Code%2FCSC447%2Fhw%2Fsrc%2Fmain%2Fscala%2Fstorage.scala:35: error: ; expected but : found
+object storage:
+              ^
+file%3A%2F%2F%2FUsers%2Fqilu%2FDocuments%2FGit_Code%2FCSC447%2Fhw%2Fsrc%2Fmain%2Fscala%2Fstorage.scala:35: error: ; expected but : found
+object storage:
+              ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:941)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:947)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:957)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:961)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5060)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5066)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5297)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5256)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5239)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5238)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5244)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$264.apply(ScalametaParser.scala:5308)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+Oct 19, 2021 2:55:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FUsers%2Fqilu%2FDocuments%2FGit_Code%2FCSC447%2Fhw%2Fsrc%2Ftest%2Fscala%2Fstoragetests.scala:4: error: ; expected but : found
+class storagetests extends UnitSpec:
+                                   ^
+file%3A%2F%2F%2FUsers%2Fqilu%2FDocuments%2FGit_Code%2FCSC447%2Fhw%2Fsrc%2Ftest%2Fscala%2Fstoragetests.scala:4: error: ; expected but : found
+class storagetests extends UnitSpec:
+                                   ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:941)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:947)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:957)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:961)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5060)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5066)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5297)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5256)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5239)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5238)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5244)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$264.apply(ScalametaParser.scala:5308)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.10.19 14:55:43 INFO  time: code lens generation in 13s[0m
+Oct 19, 2021 2:55:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FUsers%2Fqilu%2FDocuments%2FGit_Code%2FCSC447%2Fhw%2Fsrc%2Ftest%2Fscala%2Fstoragetests.scala:4: error: ; expected but : found
+class storagetests extends UnitSpec:
+                                   ^
+file%3A%2F%2F%2FUsers%2Fqilu%2FDocuments%2FGit_Code%2FCSC447%2Fhw%2Fsrc%2Ftest%2Fscala%2Fstoragetests.scala:4: error: ; expected but : found
+class storagetests extends UnitSpec:
+                                   ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:941)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:947)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:957)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:961)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5060)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5066)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5297)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5256)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5239)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5238)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5244)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$264.apply(ScalametaParser.scala:5308)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.10.19 14:55:48 INFO  no build target: using presentation compiler with only scala-library: 3.0.1[0m
+[0m2021.10.19 14:55:49 INFO  time: indexed workspace in 11s[0m
+[0m2021.10.19 14:55:49 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 14:55:49 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/test/scala/storagetests.scala[0m
+Oct 19, 2021 2:55:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+[0m2021.10.19 14:55:53 INFO  time: code lens generation in 1.79s[0m
+[0m2021.10.19 14:56:03 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+Oct 19, 2021 2:56:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 64
+Oct 19, 2021 2:56:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 69
+Oct 19, 2021 2:56:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 74
+Oct 19, 2021 2:56:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 87
+[0m2021.10.19 14:56:50 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+Oct 19, 2021 2:57:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 125
+Oct 19, 2021 2:57:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 130
+[0m2021.10.19 14:57:29 WARN  no build target for: /Users/qilu/Library/Mobile Documents/com~apple~CloudDocs/Documents/Class/CSC 447/Quiz答案/CSC-447-Concepts-of-Programming-Languages-master/storage.scala[0m
+Oct 19, 2021 2:57:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 153
+[0m2021.10.19 14:57:44 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+Oct 19, 2021 2:59:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 162
+Oct 19, 2021 2:59:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 179
+Oct 19, 2021 2:59:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 200
+[0m2021.10.19 14:59:48 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+Oct 19, 2021 3:00:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 245
+Oct 19, 2021 3:00:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 250
+[0m2021.10.19 15:00:57 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/test/scala/fp1tests.scala[0m
+Oct 19, 2021 3:01:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 261
+Oct 19, 2021 3:01:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 266
+Oct 19, 2021 3:01:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 271
+Oct 19, 2021 3:02:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 288
+Oct 19, 2021 3:02:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 295
+Oct 19, 2021 3:02:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 301
+Oct 19, 2021 3:03:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 306
+Oct 19, 2021 3:03:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 313
+Oct 19, 2021 3:03:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 317
+Oct 19, 2021 3:03:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 323
+Oct 19, 2021 3:03:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 329
+Oct 19, 2021 3:03:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 335
+[0m2021.10.19 15:04:09 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+Oct 19, 2021 3:04:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 415
+Oct 19, 2021 3:04:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 423
+[0m2021.10.19 15:04:55 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+Oct 19, 2021 3:05:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 513
+Oct 19, 2021 3:05:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 521
+[0m2021.10.19 15:05:33 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+Oct 19, 2021 3:05:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 590
+Oct 19, 2021 3:05:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 599
+[0m2021.10.19 15:05:56 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 15:06:01 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+Oct 19, 2021 3:06:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 647
+[0m2021.10.19 15:06:34 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 15:06:36 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 15:08:09 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+Oct 19, 2021 3:09:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 811
+Oct 19, 2021 3:09:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 819
+Oct 19, 2021 3:09:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 826
+Oct 19, 2021 3:09:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 830
+[0m2021.10.19 15:09:52 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+Oct 19, 2021 3:10:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 859
+Oct 19, 2021 3:10:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 872
+Oct 19, 2021 3:10:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 880
+[0m2021.10.19 15:10:35 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 15:10:39 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 15:11:50 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 15:12:21 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+Oct 19, 2021 3:13:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 979
+[0m2021.10.19 15:14:13 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+Oct 19, 2021 3:16:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1074
+Oct 19, 2021 3:18:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1194
+[0m2021.10.19 15:20:27 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 15:21:16 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+Oct 19, 2021 3:21:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1308
+Oct 19, 2021 3:21:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1314
+Oct 19, 2021 3:21:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1336
+[0m2021.10.19 15:21:50 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 15:22:17 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 15:22:21 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 15:22:58 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 15:23:10 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 15:26:33 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+Oct 19, 2021 3:27:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1455
+Oct 19, 2021 3:27:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1466
+Oct 19, 2021 3:27:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1472
+[0m2021.10.19 15:29:00 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 15:29:08 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 15:29:36 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 15:30:05 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 15:30:15 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+Oct 19, 2021 4:31:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1724
+[0m2021.10.19 16:31:52 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.19 16:31:56 INFO  time: code lens generation in 3.18s[0m
+Exception in thread "pool-4-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Oct 19, 2021 4:32:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1775
+Oct 19, 2021 4:32:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1855
+Oct 19, 2021 4:33:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1867
+Oct 19, 2021 4:33:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1874
+Oct 19, 2021 4:33:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1886
+Oct 19, 2021 4:33:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2030
+Oct 19, 2021 4:33:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2031
+[0m2021.10.19 16:34:10 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.19 16:34:12 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+Oct 19, 2021 4:35:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2135
+Oct 19, 2021 4:35:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2191
+[0m2021.10.19 16:36:00 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+Oct 19, 2021 4:36:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2206
+Oct 19, 2021 4:36:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2239
+[0m2021.10.19 16:36:41 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+Oct 19, 2021 4:36:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2269
+Oct 19, 2021 4:38:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2314
+Oct 19, 2021 4:38:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2322
+Oct 19, 2021 4:39:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2358
+Oct 19, 2021 4:39:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2391
+Oct 19, 2021 4:39:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2399
+Oct 19, 2021 4:39:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2405
+[0m2021.10.19 16:40:19 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 16:41:15 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 16:41:46 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 16:41:49 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 16:41:56 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+Oct 19, 2021 4:42:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2590
+Oct 19, 2021 4:43:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2727
+Oct 19, 2021 4:43:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2733
+Oct 19, 2021 4:43:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2748
+Oct 19, 2021 4:48:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2785
+Oct 19, 2021 4:49:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2802
+[0m2021.10.19 16:50:00 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+Oct 19, 2021 4:50:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2822
+[0m2021.10.19 16:51:03 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.19 16:51:21 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.19 16:51:49 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.19 16:51:50 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.19 16:51:53 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.19 16:52:08 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.19 16:53:06 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.19 16:53:37 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.19 16:53:40 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.19 16:53:55 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.19 16:54:25 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/fp1.scala[0m
+[0m2021.10.19 16:54:27 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/fp1.scala[0m
+[0m2021.10.19 16:54:28 INFO  shutting down Metals[0m
+[0m2021.10.19 16:54:28 INFO  Shut down connection with build server.[0m
+[0m2021.10.19 16:54:28 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.19 16:54:46 INFO  Started: Metals version 0.10.7 in workspace '/Users/qilu/Documents/Git_Code/CSC447/hw' for client Visual Studio Code 1.60.0.[0m
+[0m2021.10.19 16:54:51 INFO  time: initialize in 5.15s[0m
+[0m2021.10.19 16:54:52 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher9470699383394097038/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.10.19 16:54:51 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/fp1.scala[0m
+[0m2021.10.19 16:54:51 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/test/scala/fp1tests.scala[0m
+[0m2021.10.19 16:54:52 INFO  skipping build import with status 'Requested'[0m
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher9470699383394097038/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher9470699383394097038/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.19 16:54:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/qilu/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.10.19 16:54:53 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher11738668375088209401/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher11738668375088209401/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher11738668375088209401/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.19 16:54:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/qilu/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.10.19 16:54:53 INFO  time: Connected to build server in 1.64s[0m
+[0m2021.10.19 16:54:53 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.19 16:55:00 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.19 16:55:00 INFO  time: Imported build in 0.25s[0m
+[0m2021.10.19 16:55:04 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+Oct 19, 2021 4:55:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FUsers%2Fqilu%2FDocuments%2FGit_Code%2FCSC447%2Fhw%2Fsrc%2Ftest%2Fscala%2Ffp1tests.scala:4: error: ; expected but : found
+class fp1tests extends UnitSpec:
+                               ^
+file%3A%2F%2F%2FUsers%2Fqilu%2FDocuments%2FGit_Code%2FCSC447%2Fhw%2Fsrc%2Ftest%2Fscala%2Ffp1tests.scala:4: error: ; expected but : found
+class fp1tests extends UnitSpec:
+                               ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:941)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:947)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:957)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:961)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5060)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5066)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5297)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5256)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5239)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5238)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5244)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$264.apply(ScalametaParser.scala:5308)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.10.19 16:55:06 INFO  time: code lens generation in 12s[0m
+Oct 19, 2021 4:55:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FUsers%2Fqilu%2FDocuments%2FGit_Code%2FCSC447%2Fhw%2Fsrc%2Ftest%2Fscala%2Ffp1tests.scala:4: error: ; expected but : found
+class fp1tests extends UnitSpec:
+                               ^
+file%3A%2F%2F%2FUsers%2Fqilu%2FDocuments%2FGit_Code%2FCSC447%2Fhw%2Fsrc%2Ftest%2Fscala%2Ffp1tests.scala:4: error: ; expected but : found
+class fp1tests extends UnitSpec:
+                               ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:941)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:947)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:957)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:961)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5060)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5066)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5297)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5256)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5239)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5238)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5244)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$264.apply(ScalametaParser.scala:5308)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.10.19 16:55:11 INFO  time: indexed workspace in 11s[0m
+[0m2021.10.19 16:55:11 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/fp1.scala[0m
+[0m2021.10.19 16:55:11 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/test/scala/fp1tests.scala[0m
+[0m2021.10.19 16:55:15 INFO  no build target: using presentation compiler with only scala-library: 3.0.1[0m
+Oct 19, 2021 4:55:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Oct 19, 2021 4:55:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+Oct 19, 2021 4:55:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+Oct 19, 2021 4:55:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+[0m2021.10.19 16:55:20 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+Oct 19, 2021 4:55:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+Oct 19, 2021 4:55:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+Oct 19, 2021 4:55:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+[0m2021.10.19 16:55:21 INFO  time: code lens generation in 1.06s[0m
+[0m2021.10.19 16:55:21 INFO  time: code lens generation in 1.03s[0m
+[0m2021.10.19 16:55:50 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/test/scala/storagetests.scala[0m
+Oct 19, 2021 4:55:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+Oct 19, 2021 4:55:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31
+Oct 19, 2021 4:57:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FUsers%2Fqilu%2FDocuments%2FGit_Code%2FCSC447%2Fhw%2F.metals%2Freadonly%2Fdependencies%2Fscala-library-2.12.14-sources.jar%2Fscala%2FInt.scala:31: error: { expected but \n\n found
+ */
+   ^
+file%3A%2F%2F%2FUsers%2Fqilu%2FDocuments%2FGit_Code%2FCSC447%2Fhw%2F.metals%2Freadonly%2Fdependencies%2Fscala-library-2.12.14-sources.jar%2Fscala%2FInt.scala:31: error: { expected but \n\n found
+ */
+   ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:941)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:947)
+	at scala.meta.internal.parsers.ScalametaParser.inBracesOrError(ScalametaParser.scala:809)
+	at scala.meta.internal.parsers.ScalametaParser.inBracesOrNil(ScalametaParser.scala:827)
+	at scala.meta.internal.parsers.ScalametaParser.packageBody$1(ScalametaParser.scala:5225)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$packageDef$1(ScalametaParser.scala:5228)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.packageDef(ScalametaParser.scala:5217)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$packageOrPackageObjectDef$1(ScalametaParser.scala:5214)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.packageOrPackageObjectDef(ScalametaParser.scala:5211)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5073)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5067)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5057)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5066)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5297)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5256)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5239)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5238)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5244)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$264.apply(ScalametaParser.scala:5308)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.10.19 16:57:35 INFO  time: code lens generation in 3.6s[0m
+[0m2021.10.19 16:57:35 INFO  time: code lens generation in 2.02s[0m
+Oct 19, 2021 4:57:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 226
+Oct 19, 2021 4:57:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FUsers%2Fqilu%2FDocuments%2FGit_Code%2FCSC447%2Fhw%2F.metals%2Freadonly%2Fdependencies%2Fscala-library-2.12.14-sources.jar%2Fscala%2FUnit.scala:30: error: { expected but \n\n found
+ */
+   ^
+file%3A%2F%2F%2FUsers%2Fqilu%2FDocuments%2FGit_Code%2FCSC447%2Fhw%2F.metals%2Freadonly%2Fdependencies%2Fscala-library-2.12.14-sources.jar%2Fscala%2FUnit.scala:30: error: { expected but \n\n found
+ */
+   ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:941)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:947)
+	at scala.meta.internal.parsers.ScalametaParser.inBracesOrError(ScalametaParser.scala:809)
+	at scala.meta.internal.parsers.ScalametaParser.inBracesOrNil(ScalametaParser.scala:827)
+	at scala.meta.internal.parsers.ScalametaParser.packageBody$1(ScalametaParser.scala:5225)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$packageDef$1(ScalametaParser.scala:5228)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.packageDef(ScalametaParser.scala:5217)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$packageOrPackageObjectDef$1(ScalametaParser.scala:5214)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.packageOrPackageObjectDef(ScalametaParser.scala:5211)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5073)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5067)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5057)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5066)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5297)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5256)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5239)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5238)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5244)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$264.apply(ScalametaParser.scala:5308)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+Oct 19, 2021 4:58:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 239
+[0m2021.10.19 16:58:32 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 16:58:32 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 16:58:32 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 16:58:38 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 16:58:54 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 16:59:32 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 16:59:48 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 16:59:57 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+Oct 19, 2021 5:00:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 373
+Oct 19, 2021 5:00:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 379
+[0m2021.10.19 17:00:54 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 17:00:56 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 17:01:07 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 17:01:17 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/storage.scala[0m
+[0m2021.10.19 17:01:31 WARN  no build target for: /Users/qilu/Desktop/storage.scala[0m
+Oct 19, 2021 5:01:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 449
+[0m2021.10.19 17:03:17 WARN  no build target for: /Users/qilu/Desktop/storage.scala[0m
+[0m2021.10.19 17:03:55 INFO  shutting down Metals[0m
+[0m2021.10.19 17:03:55 INFO  Shut down connection with build server.[0m
+[0m2021.10.19 17:03:55 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.24 11:51:07 INFO  Started: Metals version 0.10.7 in workspace '/Users/qilu/Documents/Git_Code/CSC447/hw' for client Visual Studio Code 1.60.0.[0m
+[0m2021.10.24 11:51:12 INFO  time: initialize in 5.11s[0m
+[0m2021.10.24 11:51:13 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher15841967946013912120/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.10.24 11:51:13 INFO  skipping build import with status 'Requested'[0m
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.9...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/Users/qilu/Documents/Git_Code/CSC447/hw/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/qilu/Documents/Git_Code/CSC447/hw/.bloop/hw-test.json'
+[0m[32m[D][0m Loading project from '/Users/qilu/Documents/Git_Code/CSC447/hw/.bloop/hw.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:3.0.1.
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.8/jackson-dataformat-yaml-2.9.8.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.42.12/flexmark-ext-anchorlink-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.42.12/flexmark-ext-autolink-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.42.12/flexmark-ext-emoji-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.42.12/flexmark-ext-gfm-strikethrough-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.42.12/flexmark-ext-gfm-tables-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.42.12/flexmark-ext-gfm-tasklist-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.42.12/flexmark-ext-ins-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.42.12/flexmark-ext-superscript-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.42.12/flexmark-ext-tables-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.42.12/flexmark-ext-wikilink-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.42.12/flexmark-ext-yaml-front-matter-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.42.12/flexmark-formatter-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.42.12/flexmark-html-parser-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.42.12/flexmark-jira-converter-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.42.12/flexmark-util-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.42.12/flexmark-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.6.7/liqp-0.6.7.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.0.7/ST4-4.0.7.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.1/antlr-runtime-3.5.1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr/3.5.1/antlr-3.5.1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.1.0-scala-1/scala-asm-9.1.0-scala-1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.0.1/scala3-compiler_3-3.0.1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.0.1/scala3-interfaces-3.0.1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.0.1/scala3-library_3-3.0.1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.0.1/scala3-tasty-inspector_3-3.0.1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.0.1/scaladoc_3-3.0.1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.0.1/tasty-core_3-3.0.1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar
+[0m[32m[D][0m Missing analysis file for project 'hw'
+[0m[32m[D][0m Missing analysis file for project 'hw-test'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher15841967946013912120/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher15841967946013912120/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.24 11:51:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/qilu/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.10.24 11:51:21 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher4118108171182289426/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher4118108171182289426/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher4118108171182289426/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.24 11:51:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/qilu/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.10.24 11:51:21 INFO  time: Connected to build server in 8.18s[0m
+[0m2021.10.24 11:51:21 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.24 11:51:22 INFO  time: Imported build in 0.21s[0m
+[0m2021.10.24 11:51:27 INFO  time: indexed workspace in 5.3s[0m
+[0m2021.10.24 11:51:32 INFO  no build target: using presentation compiler with only scala-library: 3.0.1[0m
+[0m2021.10.24 11:51:34 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.24 11:51:37 INFO  time: code lens generation in 3.48s[0m
+[0m2021.10.24 11:52:19 WARN  no build target for: /Users/qilu/Library/Mobile Documents/com~apple~CloudDocs/Documents/Class/CSC 447/Quiz答案/CSC-447-Concepts-of-Programming-Languages-master/argpass.scala[0m
+[0m2021.10.24 11:52:26 INFO  shutting down Metals[0m
+[0m2021.10.24 11:52:26 INFO  Shut down connection with build server.[0m
+[0m2021.10.24 11:52:26 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.25 12:11:10 INFO  Started: Metals version 0.10.7 in workspace '/Users/qilu/Documents/Git_Code/CSC447/hw' for client Visual Studio Code 1.60.0.[0m
+[0m2021.10.25 12:11:15 INFO  time: initialize in 5.11s[0m
+[0m2021.10.25 12:11:16 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher7749903472825315745/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.10.25 12:11:15 WARN  no build target for: /Users/qilu/Library/Mobile Documents/com~apple~CloudDocs/Documents/Class/CSC 447/Quiz答案/CSC-447-Concepts-of-Programming-Languages-master/argpass.scala[0m
+[0m2021.10.25 12:11:16 INFO  skipping build import with status 'Requested'[0m
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/Users/qilu/Documents/Git_Code/CSC447/hw/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/qilu/Documents/Git_Code/CSC447/hw/.bloop/hw-test.json'
+[0m[32m[D][0m Loading project from '/Users/qilu/Documents/Git_Code/CSC447/hw/.bloop/hw.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:3.0.1.
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.2.3/jackson-annotations-2.2.3.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.2.3/jackson-databind-2.2.3.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.8/jackson-dataformat-yaml-2.9.8.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.7.0/protobuf-java-3.7.0.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-anchorlink/0.42.12/flexmark-ext-anchorlink-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-autolink/0.42.12/flexmark-ext-autolink-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-emoji/0.42.12/flexmark-ext-emoji-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-strikethrough/0.42.12/flexmark-ext-gfm-strikethrough-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tables/0.42.12/flexmark-ext-gfm-tables-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-gfm-tasklist/0.42.12/flexmark-ext-gfm-tasklist-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-ins/0.42.12/flexmark-ext-ins-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-superscript/0.42.12/flexmark-ext-superscript-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-tables/0.42.12/flexmark-ext-tables-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-wikilink/0.42.12/flexmark-ext-wikilink-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-ext-yaml-front-matter/0.42.12/flexmark-ext-yaml-front-matter-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-formatter/0.42.12/flexmark-formatter-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-html-parser/0.42.12/flexmark-html-parser-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-jira-converter/0.42.12/flexmark-jira-converter-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark-util/0.42.12/flexmark-util-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/vladsch/flexmark/flexmark/0.42.12/flexmark-0.42.12.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.3.1/jna-5.3.1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/nl/big-o/liqp/0.6.7/liqp-0.6.7.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.0.7/ST4-4.0.7.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.1/antlr-runtime-3.5.1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr/3.5.1/antlr-3.5.1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.13.1/jsoup-1.13.1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/nibor/autolink/autolink/0.6.0/autolink-0.6.0.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-asm/9.1.0-scala-1/scala-asm-9.1.0-scala-1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-compiler_3/3.0.1/scala3-compiler_3-3.0.1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-interfaces/3.0.1/scala3-interfaces-3.0.1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.0.1/scala3-library_3-3.0.1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-tasty-inspector_3/3.0.1/scala3-tasty-inspector_3-3.0.1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scaladoc_3/3.0.1/scaladoc_3-3.0.1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/tasty-core_3/3.0.1/tasty-core_3-3.0.1.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.3.5/compiler-interface-1.3.5.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/util-interface/1.3.0/util-interface-1.3.0.jar
+[0m[32m[D][0m   => /Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar
+[0m[32m[D][0m Missing analysis file for project 'hw-test'
+[0m[32m[D][0m Missing analysis file for project 'hw'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher7749903472825315745/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher7749903472825315745/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.25 12:11:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/qilu/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.10.25 12:11:19 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher16384350625970129982/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher16384350625970129982/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher16384350625970129982/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.25 12:11:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/qilu/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.10.25 12:11:20 INFO  time: Connected to build server in 4.26s[0m
+[0m2021.10.25 12:11:20 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.25 12:11:24 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.25 12:11:24 INFO  time: Imported build in 0.28s[0m
+[0m2021.10.25 12:11:28 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.25 12:11:31 INFO  time: code lens generation in 12s[0m
+[0m2021.10.25 12:11:37 INFO  time: indexed workspace in 12s[0m
+[0m2021.10.25 12:11:37 WARN  no build target for: /Users/qilu/Library/Mobile Documents/com~apple~CloudDocs/Documents/Class/CSC 447/Quiz答案/CSC-447-Concepts-of-Programming-Languages-master/argpass.scala[0m
+[0m2021.10.25 12:11:41 INFO  no build target: using presentation compiler with only scala-library: 3.0.1[0m
+[0m2021.10.25 12:11:45 INFO  time: code lens generation in 5.41s[0m
+Oct 25, 2021 12:11:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+[0m2021.10.25 12:11:55 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+Oct 25, 2021 12:13:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+[0m2021.10.25 12:13:13 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/test/scala/argpasstests.scala[0m
+[0m2021.10.25 12:13:16 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+Oct 25, 2021 12:13:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31
+Oct 25, 2021 12:13:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 57
+Oct 25, 2021 12:16:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 224
+Oct 25, 2021 12:17:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 260
+Oct 25, 2021 12:17:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 265
+Oct 25, 2021 12:17:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 303
+Oct 25, 2021 12:17:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 308
+[0m2021.10.25 12:21:05 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+Oct 25, 2021 12:21:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 601
+Oct 25, 2021 12:21:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 622
+[0m2021.10.25 12:22:02 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+Oct 25, 2021 12:23:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 636
+[0m2021.10.25 12:23:55 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+Oct 25, 2021 12:24:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 877
+[0m2021.10.25 12:24:19 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:24:38 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:25:03 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:25:28 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:25:28 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+Oct 25, 2021 12:25:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1216
+Oct 25, 2021 12:25:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1226
+[0m2021.10.25 12:25:47 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:26:25 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:28:48 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:28:52 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+Oct 25, 2021 12:28:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1583
+[0m2021.10.25 12:29:04 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:29:17 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:30:52 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:31:03 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:31:10 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:31:12 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+Oct 25, 2021 12:31:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1808
+[0m2021.10.25 12:32:06 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:32:40 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:33:13 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:33:24 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:34:11 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:34:54 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:35:04 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:35:15 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:35:21 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:35:39 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:35:53 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+Oct 25, 2021 12:35:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2237
+[0m2021.10.25 12:36:29 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+Oct 25, 2021 12:37:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2332
+Oct 25, 2021 12:37:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2342
+Oct 25, 2021 12:38:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2413
+[0m2021.10.25 12:39:29 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:39:42 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+Oct 25, 2021 12:40:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2525
+Oct 25, 2021 12:41:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2556
+[0m2021.10.25 12:41:22 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:41:23 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:41:44 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+Exception in thread "pool-4-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+[0m2021.10.25 12:42:11 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:42:31 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:43:06 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:43:21 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:43:37 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:45:25 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:45:30 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:45:47 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:45:55 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:46:05 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:46:37 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:46:45 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:46:54 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:48:38 INFO  skipping build import with status 'Requested'[0m
+Oct 25, 2021 12:49:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3159
+Oct 25, 2021 12:50:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3185
+[0m2021.10.25 12:50:46 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:51:31 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:51:49 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:53:04 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:53:29 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+Oct 25, 2021 12:53:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3777
+Oct 25, 2021 12:53:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3811
+[0m2021.10.25 12:53:46 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:53:54 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+Oct 25, 2021 12:53:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FUsers%2Fqilu%2FDocuments%2FGit_Code%2FCSC447%2Fhw%2F.metals%2Freadonly%2Fdependencies%2Fscala-library-2.12.14-sources.jar%2Fscala%2FPredef.scala:20: error: { expected but \n\n found
+
+^
+file%3A%2F%2F%2FUsers%2Fqilu%2FDocuments%2FGit_Code%2FCSC447%2Fhw%2F.metals%2Freadonly%2Fdependencies%2Fscala-library-2.12.14-sources.jar%2Fscala%2FPredef.scala:20: error: { expected but \n\n found
+
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:941)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:947)
+	at scala.meta.internal.parsers.ScalametaParser.inBracesOrError(ScalametaParser.scala:809)
+	at scala.meta.internal.parsers.ScalametaParser.inBracesOrNil(ScalametaParser.scala:827)
+	at scala.meta.internal.parsers.ScalametaParser.packageBody$1(ScalametaParser.scala:5225)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$packageDef$1(ScalametaParser.scala:5228)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.packageDef(ScalametaParser.scala:5217)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$packageOrPackageObjectDef$1(ScalametaParser.scala:5214)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.packageOrPackageObjectDef(ScalametaParser.scala:5211)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5073)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:5067)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5057)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5066)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5297)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5256)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5239)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5238)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5244)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$264.apply(ScalametaParser.scala:5308)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.10.25 12:54:00 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:54:15 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:54:20 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+[0m2021.10.25 12:54:22 INFO  time: code lens generation in 2.05s[0m
+[0m2021.10.25 12:55:40 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/play/README.scala[0m
+Oct 25, 2021 12:56:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4137
+[0m2021.10.25 12:56:28 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:56:33 INFO  shutting down Metals[0m
+[0m2021.10.25 12:56:33 INFO  Shut down connection with build server.[0m
+[0m2021.10.25 12:56:33 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.10.25 12:57:05 INFO  Started: Metals version 0.10.7 in workspace '/Users/qilu/Documents/Git_Code/CSC447/hw' for client Visual Studio Code 1.60.0.[0m
+[0m2021.10.25 12:57:10 INFO  time: initialize in 5.14s[0m
+[0m2021.10.25 12:57:11 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher12068916830385125447/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.10.25 12:57:11 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:57:12 INFO  skipping build import with status 'Requested'[0m
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher12068916830385125447/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher12068916830385125447/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.25 12:57:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/qilu/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.10.25 12:57:12 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher3746685305891540529/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher3746685305891540529/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/fj/q_pcqjvs5hl1ng5fw1ch1snw0000gn/T/bsp-launcher3746685305891540529/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.10.25 12:57:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/qilu/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.10.25 12:57:12 INFO  time: Connected to build server in 1.25s[0m
+[0m2021.10.25 12:57:12 INFO  Connected to Build server: Bloop v1.4.9[0m
+[0m2021.10.25 12:57:19 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+[0m2021.10.25 12:57:19 INFO  time: Imported build in 0.17s[0m
+[0m2021.10.25 12:57:23 INFO  no build target: using presentation compiler with only scala-library: 2.12.15[0m
+Oct 25, 2021 12:57:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FUsers%2Fqilu%2FDocuments%2FGit_Code%2FCSC447%2Fhw%2Fsrc%2Fmain%2Fscala%2Fargpass.scala:35: error: ; expected but : found
+object argpass:
+              ^
+file%3A%2F%2F%2FUsers%2Fqilu%2FDocuments%2FGit_Code%2FCSC447%2Fhw%2Fsrc%2Fmain%2Fscala%2Fargpass.scala:35: error: ; expected but : found
+object argpass:
+              ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:941)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:947)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:957)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:961)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:5060)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:5066)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5297)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5256)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5239)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:888)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:922)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5238)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5244)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:143)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:143)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$264.apply(ScalametaParser.scala:5308)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.10.25 12:57:25 INFO  time: code lens generation in 13s[0m
+[0m2021.10.25 12:57:30 INFO  time: indexed workspace in 10s[0m
+[0m2021.10.25 12:57:30 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:57:34 INFO  no build target: using presentation compiler with only scala-library: 3.0.1[0m
+[0m2021.10.25 12:57:37 INFO  time: code lens generation in 4.66s[0m
+[0m2021.10.25 12:58:37 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:58:56 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:59:12 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:59:43 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:59:45 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:59:47 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 12:59:52 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 13:00:01 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 13:00:06 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 13:00:16 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 13:00:21 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 13:00:29 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 13:00:41 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 13:00:51 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 13:01:08 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 13:01:49 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 13:02:06 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 13:02:14 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 13:02:49 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/test/scala/argpasstests.scala[0m
+Oct 25, 2021 1:02:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 411
+Oct 25, 2021 1:03:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 418
+Oct 25, 2021 1:04:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 426
+[0m2021.10.25 13:05:21 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 13:05:39 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 13:05:49 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m
+[0m2021.10.25 13:06:03 WARN  no build target for: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala[0m

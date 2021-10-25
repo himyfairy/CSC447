@@ -51,3 +51,37 @@
 1633450257403:testOnly fp3tests
 1633450272729:testOnly fp3tests -- -n fp3ex02
 1633450607059:testOnly fp3tests
+1634159099336::quit
+1634159104259:scala
+1634673523174:testOnly fp1tests -- -n fp1ex05
+1634673568306:testOnly storagetests -- -n fp1ex01
+1634673621635:testOnly storagetests -- -n EX01
+1634673719527:testOnly fp1tests -- -n storageex01
+1634673734328:testOnly storagtetests -- -n storageex01
+1634673742102:testOnly storagtetests -- -n storageex02
+1634673825908:testOnly storagtetests -- -n storageex01
+1634674001411:testOnly storagtetests
+1634674015395:testOnly fp1tests
+1634674034424:testOnly storagetests
+1634674070414:testOnly storagetests -- -n storageex01
+1634674073819:testOnly storagetests -- -n storageex06
+1634675333855:testOnly storagetests -- -n storageex04
+1634675409889:testOnly storagetests -- -n storageex03
+1634680496472:testOnly storagetests -- -n storageex01
+1634680508728:testOnly storagetests -- -n storageex06
+1634680874471:testOnly storagetests
+1635181908319:testOnly fp1tests
+1635182509369:testOnly argpasstests -- -n argpassex01
+1635182681288:testOnly argpasstests -- -n argpassex02
+1635182751426:testOnly argpasstests -- -n argpassex01
+1635182780614:testOnly argpasstests -- -n argpassex02
+1635182946991:testOnly argpasstests -- -n argpassex03
+1635183129598:testOnly argpasstests -- -n argpassex04
+1635183686766:testOnly argpasstests -- -n argpassex03
+1635183689989:testOnly argpasstests -- -n argpassex04
+1635183708844:testOnly argpasstests -- -n argpassex03
+1635183791761:testOnly argpasstests -- -n argpassex04
+1635184457690:testOnly argpasstests -- -n argpassex03
+1635184811411:testOnly argpasstests -- -n argpassex04
+1635185124598:testOnly argpasstests -- -n argpassex05
+1635185160190:testOnly argpasstests
