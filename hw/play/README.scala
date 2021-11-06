@@ -529,8 +529,12 @@ object test66:
     val a = 10
     val b = 20
     println(s"a: $a, b: $b")
-    if (a == b) println("YES---")
-    else println("NO---")
+
+    var y = 10
+    val fs:List[Int=>Int] = List(x=>x+y+1, x=>x+y+2)
+    for (f <- fs; y <- List(0, 1)) println(f(y)) 
+    // if (a == b) println("YES---")
+    // else println("NO---")
     // val a = test1(List(1, 2, 3))
     // val a = 5 :: 6 :: 7 :: Nil
     // val a = List(1, 2) :: List(3, 4, 5) :: Nil

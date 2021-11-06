@@ -85,3 +85,11 @@
 1635184811411:testOnly argpasstests -- -n argpassex04
 1635185124598:testOnly argpasstests -- -n argpassex05
 1635185160190:testOnly argpasstests
+1636170174324:testOnly subtypingtests -- -n subtypingex05
+1636170196339:testOnly subtypingtests
+1636170239310:testOnly subtypingtests -- -n subtypingex01
+1636170552203:testOnly subtypingtests -- -n subtypingex02
+1636170861896:testOnly subtypingtests -- -n subtypingex01
+1636171028064:testOnly subtypingtests -- -n subtypingex02
+1636171117826:testOnly subtypingtests -- -n subtypingex03
+1636171124036:testOnly subtypingtests

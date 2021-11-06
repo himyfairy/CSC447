@@ -1,0 +1,336 @@
+
+ÑTsrc/main/scala/fp2.scala*
+_empty_/fp2.
+ *fp2Ä*
+_empty_/fp2.map().*mapÄ*
+_empty_/fp2.map().[A]	*AÄ*
+_empty_/fp2.map().[B]	*BÄ*!
+_empty_/fp2.map().(xs)*xsÄ*
+_empty_/fp2.map().(f)*fÄ*
+local0 Ä*xÄ*
+local1 Ä*xs1Ä*
+local2 Ä*elem$1Ä*$
+_empty_/fp2.filter().*filterÄ*"
+_empty_/fp2.filter().[A]	*AÄ*$
+_empty_/fp2.filter().(xs)*xsÄ*"
+_empty_/fp2.filter().(f)*fÄ*
+local3 Ä*xÄ*
+local4 Ä*xs1Ä*
+local5 Ä*elem$2Ä*$
+_empty_/fp2.append().*appendÄ*"
+_empty_/fp2.append().[A]	*AÄ*$
+_empty_/fp2.append().(xs)*xsÄ*$
+_empty_/fp2.append().(ys)*ysÄ*
+local6 Ä*xÄ*
+local7 Ä*xs1Ä*&
+_empty_/fp2.flatten().*flattenÄ*#
+_empty_/fp2.flatten().[A]	*AÄ*'
+_empty_/fp2.flatten().(xss)*xssÄ*
+local8 Ä*xÄ*
+local9 Ä*xs1Ä*(
+_empty_/fp2.foldLeft().*foldLeftÄ*$
+_empty_/fp2.foldLeft().[A]	*AÄ*$
+_empty_/fp2.foldLeft().[B]	*BÄ*&
+_empty_/fp2.foldLeft().(xs)*xsÄ*$
+_empty_/fp2.foldLeft().(e)*eÄ*$
+_empty_/fp2.foldLeft().(f)*fÄ*
+local10 Ä*xÄ*
+local11 Ä*xs1Ä**
+_empty_/fp2.foldRight().*	foldRightÄ*%
+_empty_/fp2.foldRight().[A]	*AÄ*%
+_empty_/fp2.foldRight().[B]	*BÄ*'
+_empty_/fp2.foldRight().(xs)*xsÄ*%
+_empty_/fp2.foldRight().(e)*eÄ*%
+_empty_/fp2.foldRight().(f)*fÄ*
+local12 Ä*xÄ*
+local13 Ä*xs1Ä*<
+!_empty_/fp2.joinTerminateRight().*joinTerminateRightÄ*0
+%_empty_/fp2.joinTerminateRight().(xs)*xsÄ*4
+'_empty_/fp2.joinTerminateRight().(term)*termÄ*:
+ _empty_/fp2.joinTerminateLeft().*joinTerminateLeftÄ*/
+$_empty_/fp2.joinTerminateLeft().(xs)*xsÄ*3
+&_empty_/fp2.joinTerminateLeft().(term)*termÄ*>
+"_empty_/fp2.firstNumGreaterThan().*firstNumGreaterThanÄ*/
+%_empty_/fp2.firstNumGreaterThan().(a)*aÄ*1
+&_empty_/fp2.firstNumGreaterThan().(xs)*xsÄ*
+local14 Ä*xÄ*
+local15 Ä*xs1Ä*H
+'_empty_/fp2.firstIndexNumGreaterThan().*firstIndexNumGreaterThanÄ*4
+*_empty_/fp2.firstIndexNumGreaterThan().(a)*aÄ*6
++_empty_/fp2.firstIndexNumGreaterThan().(xs)*xsÄ2/
+!! '!java/util/NoSuchElementException#2
+!! 
+java/util/2
+!! java/2
+"" 
+_empty_/fp2.2 
+)) 	_empty_/fp2.map().2#
+)
+) _empty_/fp2.map().[A]2#
+)) _empty_/fp2.map().[B]2$
+)) _empty_/fp2.map().(xs)2!
+)) scala/package.List#2#
+)) _empty_/fp2.map().[A]2#
+)) _empty_/fp2.map().(f)2#
+) ) !_empty_/fp2.map().[A]2#
+)%) &_empty_/fp2.map().[B]2!
+))) -scala/package.List#2#
+).) /_empty_/fp2.map().[B]2$
+** _empty_/fp2.map().(xs)27
+++ )scala/collection/SeqFactory#unapplySeq().2!
+++ scala/package.List.2 
+++ scala/package.Nil.28
+,, *scala/collection/immutable/`::`.unapply().2!
+,, scala/package.`::`.2
+,, local02
+,, local125
+,*, *'scala/collection/immutable/List#`::`().2 
+,, "_empty_/fp2.map().2
+,#, &local12#
+,(, )_empty_/fp2.map().(f)2
+,, local22#
+33 _empty_/fp2.filter().2&
+33 _empty_/fp2.filter().[A]2'
+33 _empty_/fp2.filter().(xs)2!
+33 scala/package.List#2&
+33 _empty_/fp2.filter().[A]2&
+33 _empty_/fp2.filter().(f)2&
+3 3 !_empty_/fp2.filter().[A]2
+3%3 ,scala/Boolean#2!
+3/3 3scala/package.List#2&
+343 5_empty_/fp2.filter().[A]2'
+44 _empty_/fp2.filter().(xs)27
+55 )scala/collection/SeqFactory#unapplySeq().2!
+55 scala/package.List.2 
+55 scala/package.Nil.28
+66 *scala/collection/immutable/`::`.unapply().2!
+66 scala/package.`::`.2
+66 local32
+66 local42&
+77 scala/Function1#apply().2&
+77 _empty_/fp2.filter().(f)2
+77 local325
+7.7 .'scala/collection/immutable/List#`::`().2#
+7 7 &_empty_/fp2.filter().2
+7'7 *local42&
+7,7 -_empty_/fp2.filter().(f)2
+77 local52#
+88 _empty_/fp2.filter().2
+88 local42&
+88 _empty_/fp2.filter().(f)2#
+AA _empty_/fp2.append().2&
+AA _empty_/fp2.append().[A]2'
+AA _empty_/fp2.append().(xs)2!
+AA scala/package.List#2&
+AA _empty_/fp2.append().[A]2'
+AA _empty_/fp2.append().(ys)2!
+A!A %scala/package.List#2&
+A&A '_empty_/fp2.append().[A]2!
+A+A /scala/package.List#2&
+A0A 1_empty_/fp2.append().[A]2'
+BB _empty_/fp2.append().(xs)27
+CC )scala/collection/SeqFactory#unapplySeq().2!
+CC scala/package.List.2'
+CC _empty_/fp2.append().(ys)28
+DD *scala/collection/immutable/`::`.unapply().2!
+DD scala/package.`::`.2
+DD local62
+DD local725
+D+D +'scala/collection/immutable/List#`::`().2#
+DD "_empty_/fp2.append().2
+D#D &local72'
+D(D *_empty_/fp2.append().(ys)2
+DD local62$
+QQ _empty_/fp2.flatten().2'
+QQ _empty_/fp2.flatten().[A]2)
+QQ _empty_/fp2.flatten().(xss)2!
+QQ scala/package.List#2!
+QQ scala/package.List#2'
+Q Q !_empty_/fp2.flatten().[A]2!
+Q&Q *scala/package.List#2'
+Q+Q ,_empty_/fp2.flatten().[A]2)
+RR _empty_/fp2.flatten().(xss)27
+SS )scala/collection/SeqFactory#unapplySeq().2!
+SS scala/package.List.2 
+SS scala/package.Nil.28
+TT *scala/collection/immutable/`::`.unapply().2!
+TT scala/package.`::`.2
+TT local82
+TT local92#
+TT _empty_/fp2.append().2
+TT local82$
+T!T (_empty_/fp2.flatten().2
+T)T ,local92%
+^^ _empty_/fp2.foldLeft().2(
+^^ _empty_/fp2.foldLeft().[A]2(
+^^ _empty_/fp2.foldLeft().[B]2)
+^^ _empty_/fp2.foldLeft().(xs)2!
+^^ scala/package.List#2(
+^^ _empty_/fp2.foldLeft().[A]2(
+^"^ #_empty_/fp2.foldLeft().(e)2(
+^%^ &_empty_/fp2.foldLeft().[B]2(
+^(^ )_empty_/fp2.foldLeft().(f)2(
+^,^ -_empty_/fp2.foldLeft().[B]2(
+^/^ 0_empty_/fp2.foldLeft().[A]2(
+^5^ 6_empty_/fp2.foldLeft().[B]2(
+^9^ :_empty_/fp2.foldLeft().[B]2)
+__ _empty_/fp2.foldLeft().(xs)27
+`` )scala/collection/SeqFactory#unapplySeq().2!
+`` scala/package.List.2(
+`` _empty_/fp2.foldLeft().(e)28
+aa *scala/collection/immutable/`::`.unapply().2!
+aa scala/package.`::`.2
+aa local102
+aa local112%
+aa _empty_/fp2.foldLeft().2
+a a #local112&
+a&a &scala/Function2#apply().2(
+a%a &_empty_/fp2.foldLeft().(f)2(
+a'a (_empty_/fp2.foldLeft().(e)2
+a*a +local102(
+a.a /_empty_/fp2.foldLeft().(f)2&
+kk _empty_/fp2.foldRight().2)
+kk _empty_/fp2.foldRight().[A]2)
+kk _empty_/fp2.foldRight().[B]2*
+kk _empty_/fp2.foldRight().(xs)2!
+kk scala/package.List#2)
+kk  _empty_/fp2.foldRight().[A]2)
+k#k $_empty_/fp2.foldRight().(e)2)
+k&k '_empty_/fp2.foldRight().[B]2)
+k)k *_empty_/fp2.foldRight().(f)2)
+k-k ._empty_/fp2.foldRight().[A]2)
+k0k 1_empty_/fp2.foldRight().[B]2)
+k6k 7_empty_/fp2.foldRight().[B]2)
+k:k ;_empty_/fp2.foldRight().[B]2*
+ll _empty_/fp2.foldRight().(xs)27
+mm )scala/collection/SeqFactory#unapplySeq().2!
+mm scala/package.List.2)
+mm _empty_/fp2.foldRight().(e)28
+nn *scala/collection/immutable/`::`.unapply().2!
+nn scala/package.`::`.2
+nn local122
+nn local132&
+nn scala/Function2#apply().2)
+nn _empty_/fp2.foldRight().(f)2
+nn local122&
+nn %_empty_/fp2.foldRight().2
+n&n )local132)
+n+n ,_empty_/fp2.foldRight().(e)2)
+n.n /_empty_/fp2.foldRight().(f)2/
+|| !_empty_/fp2.joinTerminateRight().23
+|| %_empty_/fp2.joinTerminateRight().(xs)2!
+|| !scala/package.List#2"
+|"| (scala/Predef.String#25
+|+| /'_empty_/fp2.joinTerminateRight().(term)2"
+|1| 7scala/Predef.String#2"
+|:| @scala/Predef.String#2&
+}} _empty_/fp2.foldRight().23
+}} %_empty_/fp2.joinTerminateRight().(xs)2%
+}} java/lang/String#`+`().2%
+}} java/lang/String#`+`().25
+}} '_empty_/fp2.joinTerminateRight().(term)20
+
+ãã  _empty_/fp2.joinTerminateLeft().24
+
+ãã $_empty_/fp2.joinTerminateLeft().(xs)2#
+
+ãã  scala/package.List#2$
+
+ã!ã 'scala/Predef.String#26
+
+ã*ã .&_empty_/fp2.joinTerminateLeft().(term)2$
+
+ã0ã 6scala/Predef.String#2$
+
+ã9ã ?scala/Predef.String#2'
+
+åå _empty_/fp2.foldLeft().24
+
+åå $_empty_/fp2.joinTerminateLeft().(xs)2'
+
+åå java/lang/String#`+`().2'
+
+åå java/lang/String#`+`().26
+
+åå &_empty_/fp2.joinTerminateLeft().(term)22
+
+ôô "_empty_/fp2.firstNumGreaterThan().25
+
+ôô %_empty_/fp2.firstNumGreaterThan().(a)2
+
+ôô  
+scala/Int#26
+
+ô"ô $&_empty_/fp2.firstNumGreaterThan().(xs)2#
+
+ô&ô *scala/package.List#2
+
+ô+ô .
+scala/Int#2
+
+ô2ô 5
+scala/Int#26
+
+öö &_empty_/fp2.firstNumGreaterThan().(xs)29
+
+õõ )scala/collection/SeqFactory#unapplySeq().2#
+
+õõ scala/package.List.2<
+
+õ;õ ;,java/util/NoSuchElementException#`<init>`().21
+
+õ%õ ;!java/util/NoSuchElementException#2
+
+õ õ $
+java/util/2
+
+õõ java/2:
+
+úú *scala/collection/immutable/`::`.unapply().2#
+
+úú scala/package.`::`.2
+
+úú local142
+
+úú local152#
+
+ùù scala/Int#`>=`(+3).2
+
+ùù local1425
+
+ùù %_empty_/fp2.firstNumGreaterThan().(a)2
+
+ùù local1422
+
+ûû  "_empty_/fp2.firstNumGreaterThan().25
+
+û!û "%_empty_/fp2.firstNumGreaterThan().(a)2
+
+û$û 'local1527
+
+ØØ '_empty_/fp2.firstIndexNumGreaterThan().2:
+
+ØØ  *_empty_/fp2.firstIndexNumGreaterThan().(a)2
+
+Ø"Ø %
+scala/Int#2;
+
+Ø'Ø )+_empty_/fp2.firstIndexNumGreaterThan().(xs)2#
+
+Ø+Ø /scala/package.List#2
+
+Ø0Ø 3
+scala/Int#2
+
+Ø7Ø :
+scala/Int#24
+
+∞∞ $scala/collection/SeqOps#indexOf(+1).2;
+
+∞∞ +_empty_/fp2.firstIndexNumGreaterThan().(xs)22
+
+∞∞ ""_empty_/fp2.firstNumGreaterThan().2:
+
+∞#∞ $*_empty_/fp2.firstIndexNumGreaterThan().(a)2;
+
+∞&∞ (+_empty_/fp2.firstIndexNumGreaterThan().(xs)PZ B385EAC9DFC9003893626F105804C2D6

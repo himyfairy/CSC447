@@ -1,0 +1,146 @@
+
+Ì0src/main/scala/subtyping.scala*&
+_empty_/subtyping.
+ *	subtyping€**
+_empty_/subtyping.Counter#*Counter€*7
+%_empty_/subtyping.Counter#`<init>`(). €@*<init>€*+
+_empty_/subtyping.Counter#n(). €*n€*8
+&_empty_/subtyping.Counter#increment().*	increment€*8
+&_empty_/subtyping.Counter#decrement().*	decrement€*,
+ _empty_/subtyping.Counter#get().*get€*.
+_empty_/subtyping.myCounter#*	myCounter€*9
+'_empty_/subtyping.myCounter#`<init>`(). €@*<init>€*5
+$_empty_/subtyping.myCounter#count(). €*count€*:
+(_empty_/subtyping.myCounter#increment().*	increment€*:
+(_empty_/subtyping.myCounter#decrement().*	decrement€*8
+'_empty_/subtyping.myCounter#getCount().*getCount€*:
+#_empty_/subtyping.observeCounter().*observeCounter€*0
+&_empty_/subtyping.observeCounter().(f)*f€*
+local0 €*c€*B
+'_empty_/subtyping.observeCounterList().*observeCounterList€*4
+*_empty_/subtyping.observeCounterList().(f)*f€*
+local1 €*list€*D
+(_empty_/subtyping.observeCounterArray().*observeCounterArray€*5
++_empty_/subtyping.observeCounterArray().(f)*f€*
+local2 €*array€2 
+   _empty_/subtyping.2(
+$$ _empty_/subtyping.Counter#23
+%% %_empty_/subtyping.Counter#`<init>`().2,
+%% _empty_/subtyping.Counter#n().24
+&& &_empty_/subtyping.Counter#increment().2,
+&& _empty_/subtyping.Counter#n().2 
+&& scala/Int#`+`(+4).2,
+&& _empty_/subtyping.Counter#n().24
+'' &_empty_/subtyping.Counter#decrement().2,
+'' _empty_/subtyping.Counter#n().2 
+'' scala/Int#`-`(+3).2,
+'' _empty_/subtyping.Counter#n().2.
+((  _empty_/subtyping.Counter#get().2
+(( 
+scala/Int#2,
+(( _empty_/subtyping.Counter#n().2*
+++ _empty_/subtyping.myCounter#25
+++ '_empty_/subtyping.myCounter#`<init>`().23
++!+ !%_empty_/subtyping.Counter#`<init>`().2(
+++ !_empty_/subtyping.Counter#22
+,, $_empty_/subtyping.myCounter#count().26
+-- (_empty_/subtyping.myCounter#increment().24
+-'- 0&_empty_/subtyping.Counter#increment().22
+-4- 9$_empty_/subtyping.myCounter#count().2 
+-B- Cscala/Int#`+`(+4).22
+-<- A$_empty_/subtyping.myCounter#count().26
+.. (_empty_/subtyping.myCounter#decrement().24
+.'. 0&_empty_/subtyping.Counter#decrement().22
+.4. 9$_empty_/subtyping.myCounter#count().2 
+.B. Cscala/Int#`+`(+4).22
+.<. A$_empty_/subtyping.myCounter#count().25
+// '_empty_/subtyping.myCounter#getCount().2
+// 
+scala/Int#22
+// !$_empty_/subtyping.myCounter#count().21
+AA #_empty_/subtyping.observeCounter().24
+AA &_empty_/subtyping.observeCounter().(f)2(
+AA _empty_/subtyping.Counter#2
+A#A 'scala/Unit#2
+A*A -
+scala/Int#2
+BB 	local025
+BB '_empty_/subtyping.myCounter#`<init>`().2*
+BB _empty_/subtyping.myCounter#2&
+CC scala/Function1#apply().24
+CC &_empty_/subtyping.observeCounter().(f)2
+CC local025
+DD '_empty_/subtyping.myCounter#getCount().2
+DD local025
+QQ '_empty_/subtyping.observeCounterList().28
+QQ *_empty_/subtyping.observeCounterList().(f)2!
+QQ  scala/package.List#2(
+Q!Q (_empty_/subtyping.Counter#2
+Q-Q 1scala/Unit#2!
+Q4Q 8scala/package.List#2
+Q9Q <
+scala/Int#2
+RR local12!
+RR scala/package.List#2*
+RR _empty_/subtyping.myCounter#27
+R$R $)scala/collection/IterableFactory#apply().2!
+R R $scala/package.List.2*
+R%R ._empty_/subtyping.myCounter#25
+R=R ='_empty_/subtyping.myCounter#`<init>`().2*
+R4R =_empty_/subtyping.myCounter#25
+RNR N'_empty_/subtyping.myCounter#`<init>`().2*
+RER N_empty_/subtyping.myCounter#25
+R_R _'_empty_/subtyping.myCounter#`<init>`().2*
+RVR __empty_/subtyping.myCounter#2&
+SS scala/Function1#apply().28
+SS *_empty_/subtyping.observeCounterList().(f)2
+SS 
+local127
+TT )scala/collection/IterableFactory#apply().2!
+TT scala/package.List.25
+TT '_empty_/subtyping.myCounter#getCount().24
+TT &scala/collection/LinearSeqOps#apply().2
+T	T local125
+T%T -'_empty_/subtyping.myCounter#getCount().24
+T!T !&scala/collection/LinearSeqOps#apply().2
+TT !local125
+T9T A'_empty_/subtyping.myCounter#getCount().24
+T5T 5&scala/collection/LinearSeqOps#apply().2
+T1T 5local126
+cc (_empty_/subtyping.observeCounterArray().29
+cc +_empty_/subtyping.observeCounterArray().(f)2
+cc "scala/Array#2(
+c#c *_empty_/subtyping.Counter#2
+c/c 3scala/Unit#2
+c6c ;scala/Array#2
+c<c ?
+scala/Int#2
+dd local22!
+dd scala/package.List#2*
+dd _empty_/subtyping.myCounter#27
+d%d %)scala/collection/IterableFactory#apply().2!
+d!d %scala/package.List.25
+d3d 3'_empty_/subtyping.myCounter#`<init>`().2*
+d*d 3_empty_/subtyping.myCounter#25
+dDd D'_empty_/subtyping.myCounter#`<init>`().2*
+d;d D_empty_/subtyping.myCounter#25
+dUd U'_empty_/subtyping.myCounter#`<init>`().2*
+dLd U_empty_/subtyping.myCounter#2&
+ee scala/Function1#apply().29
+ee +_empty_/subtyping.observeCounterArray().(f)29
+ee +scala/collection/IterableOnceOps#toArray().2
+ee local22-
+ee scala/reflect/ClassTag.apply().29
+fHf O+scala/collection/IterableOnceOps#toArray().27
+ff )scala/collection/IterableFactory#apply().2!
+ff scala/package.List.25
+ff '_empty_/subtyping.myCounter#getCount().24
+ff &scala/collection/LinearSeqOps#apply().2
+f	f local225
+f'f /'_empty_/subtyping.myCounter#getCount().24
+f#f #&scala/collection/LinearSeqOps#apply().2
+ff #local225
+f<f D'_empty_/subtyping.myCounter#getCount().24
+f8f 8&scala/collection/LinearSeqOps#apply().2
+f3f 8local22-
+fOf Oscala/reflect/ClassTag.apply().PZ 2DA31275BED1F08F4C1F6FD28047B0F2

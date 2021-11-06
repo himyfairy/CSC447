@@ -1,0 +1,206 @@
+
+src/main/scala/storage.scala*"
+_empty_/storage.
+ *storage€*/
+_empty_/storage.constant5. €*	constant5€*-
+_empty_/storage.constant. €*constant€*
+local0*n€*-
+_empty_/storage.counter0. €*counter0€*
+local1 €*n€*+
+_empty_/storage.counter. €*counter€*
+local2*n€*
+local3 €*num€*/
+_empty_/storage.getAndSet. €*	getAndSet€*
+local4*n€*
+local5 €*num€*
+local6*get€*
+local7*set€*
+local8*m€*5
+_empty_/storage.getAndSetSpy. €*getAndSetSpy€*
+local9 €*count€*
+local10 €*	getAndSet€*
+local11*n€*
+local12 €*num€*
+local13*get€*
+local14*set€*
+local15*m€*
+local16 €*getCount€*
+local17 €*getAndSetFun€2
+"" _empty_/storage.2(
+&& _empty_/storage.constant5.2
+&& 
+scala/Int#2'
+-- _empty_/storage.constant.2
+-- 
+scala/Int#2
+--  
+scala/Int#2
+.. local02
+.. 
+scala/Int#2
+.. local02'
+99 _empty_/storage.counter0.2
+99 
+scala/Int#2
+:: 	local12
+<< local12 
+<< scala/Int#`+`(+4).2
+<
+< local12
+== local12&
+II _empty_/storage.counter.2
+II 
+scala/Int#2
+II 
+scala/Int#2
+JJ local22
+JJ 
+scala/Int#2
+K
+K local32 
+KK scala/Int#`-`(+3).2
+KK local22
+MM local32 
+MM scala/Int#`+`(+4).2
+MM local32
+NN local32(
+aa _empty_/storage.getAndSet.2
+aa 
+scala/Int#2
+aa "
+scala/Int#2
+a$a '
+scala/Int#2
+a+a /scala/Unit#2
+bb local42
+bb 
+scala/Int#2
+c
+c local52
+cc local42
+d
+d local62
+dd 
+scala/Int#2
+d!d $local52
+e
+e local72
+ee 
+scala/Int#2
+ee scala/Unit#2
+ee local82
+e!e $
+scala/Int#2
+e)e ,local52
+e/e 0local82#
+ff scala/Tuple2.apply().2
+ff 
+local62
+ff local72-
+
+ƒƒ _empty_/storage.getAndSetSpy.2
+
+ƒ!ƒ $
+scala/Int#2
+
+ƒ&ƒ )
+scala/Int#2
+
+ƒ4ƒ 7
+scala/Int#2
+
+ƒ9ƒ <
+scala/Int#2
+
+ƒ@ƒ Dscala/Unit#2
+
+„„ local92
+
+†
+† local102
+
+†† 
+scala/Int#2
+
+†#† &
+scala/Int#2
+
+†(† +
+scala/Int#2
+
+†/† 3scala/Unit#2
+
+‡	‡ 
+local112
+
+‡‡ 
+scala/Int#2
+
+ˆˆ local122
+
+ˆˆ local112
+
+‰‰ local132
+
+‰‰ 
+scala/Int#2
+
+‰%‰ (local122
+
+ŠŠ local142
+
+ŠŠ 
+scala/Int#2
+
+ŠŠ scala/Unit#2
+
+Š"Š #local152
+
+Š%Š (
+scala/Int#2
+
+‹‹ local92"
+
+‹‹ scala/Int#`+`(+4).2
+
+‹‹ local92
+
+ŒŒ local122
+
+ŒŒ local152%
+
+ scala/Tuple2.apply().2
+
+ local132
+
+ local142
+
+’
+’ local162
+
+’’ 
+scala/Int#2
+
+’'’ ,local92
+
+“
+“ local172
+
+““ 
+scala/Int#2
+
+“&“ )
+scala/Int#2
+
+“+“ .
+scala/Int#2
+
+“2“ 6scala/Unit#2
+
+“:“ Clocal102%
+
+”” scala/Tuple2.apply().2
+
+”” local162
+
+”” local17PZ 7F60091EC356F1827F84F14D48344100

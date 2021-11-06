@@ -42,3 +42,5 @@
 [0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"\u001b[36mRun completed in 124 milliseconds.\u001b[0m\n\u001b[36mTotal number of tests run: 5\u001b[0m\n\u001b[36mSuites: completed 1, aborted 0\u001b[0m\n\u001b[36mTests: succeeded 5, failed 0, canceled 0, ignored 0, pending 0\u001b[0m\n\u001b[32mAll tests passed.\u001b[0m"})[0m
 [0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed Oct 25, 2021, 1:06:16 PM[0m
 [0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled request received: shutdown: JsonRpcRequestMessage(2.0, ♨13, shutdown, null})[0m

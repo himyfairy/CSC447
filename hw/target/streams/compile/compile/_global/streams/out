@@ -1,6 +1,14 @@
-[0m[[0m[31merror[0m] [0m[0m[31m-- [E100] Syntax Error: /Users/qilu/Documents/Git_Code/CSC447/hw/src/main/scala/argpass.scala:127:14 [0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m127 |[0m      r.set(r.get + [31m1[0m)[0m
-[0m[[0m[31merror[0m] [0m[0m    |            [31m^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m    |            [33mmethod[0m [35mget[0m in [33mclass[0m [35mRefInt[0m must be called with () argument[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /Users/qilu/Documents/Git_Code/Azure/CSC447/hw/src/main/scala/subtyping.scala:100:14 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m100 |[0m    List(l([31m0[0m).getT(), l([31m1[0m).getT(), l([31m2[0m).getT())  [0m
+[0m[[0m[31merror[0m] [0m[0m    |         [31m^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |value getT is not a member of subtyping.myCounter - did you mean myCounter.get?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /Users/qilu/Documents/Git_Code/Azure/CSC447/hw/src/main/scala/subtyping.scala:100:27 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m100 |[0m    List(l([31m0[0m).getT(), l([31m1[0m).getT(), l([31m2[0m).getT())  [0m
+[0m[[0m[31merror[0m] [0m[0m    |                      [31m^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |value getT is not a member of subtyping.myCounter - did you mean myCounter.get?[0m
+[0m[[0m[31merror[0m] [0m[0m[31m-- [E008] Not Found Error: /Users/qilu/Documents/Git_Code/Azure/CSC447/hw/src/main/scala/subtyping.scala:100:40 [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m100 |[0m    List(l([31m0[0m).getT(), l([31m1[0m).getT(), l([31m2[0m).getT())  [0m
+[0m[[0m[31merror[0m] [0m[0m    |                                   [31m^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m    |value getT is not a member of subtyping.myCounter - did you mean myCounter.get?[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m

@@ -40,6 +40,14 @@ object subtyping:
     def decrement() = { n = n - 1 }
     def get(): Int = n
 
+
+  class myCounter extends Counter {
+    private var count = 0
+    override def increment() = { super.increment(); count = count + 1 }
+    override def decrement() = { super.decrement(); count = count + 1 }
+    def getCount(): Int = { count }
+  }
+
   // EXERCISE 1: complete the following function.  The observeCounter
   // function has one parameter f: a function that accepts (a reference to) a
   // Counter instance but returns nothing.
@@ -56,9 +64,9 @@ object subtyping:
   // observeCounter should call f, and then return the total number of times
   // that increment/decrement were called on the instance by f.
   def observeCounter(f: Counter => Unit): Int =
-    // TODO: Provide definition here.
-    throw UnsupportedOperationException()
-
+    val c = new myCounter()
+    f(c)
+    c.getCount()
 
   // EXERCISE 2: complete the following function.  It is the same as
   // observeCounter except that f has a parameter of type List[Counter] not
@@ -72,8 +80,9 @@ object subtyping:
   // of times that increment/decrement were called on the first element of
   // type List[Counter], similarly for the second and third elements.
   def observeCounterList(f: List[Counter] => Unit): List[Int] =
-    // TODO: Provide definition here.
-    throw UnsupportedOperationException()
+    val list: List[myCounter] = List[myCounter](new myCounter(), new myCounter(), new myCounter())
+    f(list)
+    List(list(0).getCount(), list(1).getCount(), list(2).getCount())  
 
   // EXERCISE 3: complete the following function.  It is the same as
   // observeCounterList except that f has a parameter of type Array[Counter]
@@ -89,6 +98,7 @@ object subtyping:
   //
   // In this exercise you are NOT allowed to asInstanceOf.
   def observeCounterArray(f: Array[Counter] => Unit): Array[Int] =
-    // TODO: Provide definition here.
-    throw UnsupportedOperationException()
+    val array: List[myCounter] = List(new myCounter(), new myCounter(), new myCounter())
+    f(array.toArray)
+    List(array(0).getCount(), array(1).getCount(), array(2).getCount()).toArray
 

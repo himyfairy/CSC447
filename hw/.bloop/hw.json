@@ -2,13 +2,13 @@
     "version": "1.4.0",
     "project": {
         "name": "hw",
-        "directory": "/Users/qilu/Downloads/hw",
-        "workspaceDir": "/Users/qilu/Downloads/hw",
+        "directory": "/Users/qilu/Documents/Git_Code/Azure/CSC447/hw",
+        "workspaceDir": "/Users/qilu/Documents/Git_Code/Azure/CSC447/hw",
         "sources": [
-            "/Users/qilu/Downloads/hw/src/main/scala",
-            "/Users/qilu/Downloads/hw/src/main/scala-3",
-            "/Users/qilu/Downloads/hw/src/main/java",
-            "/Users/qilu/Downloads/hw/target/scala-3.0.1/src_managed/main"
+            "/Users/qilu/Documents/Git_Code/Azure/CSC447/hw/src/main/scala",
+            "/Users/qilu/Documents/Git_Code/Azure/CSC447/hw/src/main/scala-3",
+            "/Users/qilu/Documents/Git_Code/Azure/CSC447/hw/src/main/java",
+            "/Users/qilu/Documents/Git_Code/Azure/CSC447/hw/target/scala-3.0.1/src_managed/main"
         ],
         "dependencies": [
             
@@ -17,11 +17,11 @@
             "/Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.0.1/scala3-library_3-3.0.1.jar",
             "/Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.6/scala-library-2.13.6.jar"
         ],
-        "out": "/Users/qilu/Downloads/hw/.bloop/hw",
-        "classesDir": "/Users/qilu/Downloads/hw/.bloop/hw/scala-3/classes",
+        "out": "/Users/qilu/Documents/Git_Code/Azure/CSC447/hw/.bloop/hw",
+        "classesDir": "/Users/qilu/Documents/Git_Code/Azure/CSC447/hw/.bloop/hw/scala-3/classes",
         "resources": [
-            "/Users/qilu/Downloads/hw/src/main/resources",
-            "/Users/qilu/Downloads/hw/target/scala-3.0.1/resource_managed/main"
+            "/Users/qilu/Documents/Git_Code/Azure/CSC447/hw/src/main/resources",
+            "/Users/qilu/Documents/Git_Code/Azure/CSC447/hw/target/scala-3.0.1/resource_managed/main"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -83,7 +83,7 @@
                 "/Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5.1/antlr-runtime-3.5.1.jar",
                 "/Users/qilu/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/antlr/ST4/4.0.7/ST4-4.0.7.jar"
             ],
-            "analysis": "/Users/qilu/Downloads/hw/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_3.zip",
+            "analysis": "/Users/qilu/Documents/Git_Code/Azure/CSC447/hw/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_3.zip",
             "setup": {
                 "order": "mixed",
                 "addLibraryToBootClasspath": true,
@@ -145,9 +145,9 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home",
+                "home": "/Users/qilu/Library/Java/JavaVirtualMachines/corretto-16.0.2/Contents/Home",
                 "options": [
-                    "-Duser.dir=/Users/qilu/Downloads/hw"
+                    "-Duser.dir=/Users/qilu/Documents/Git_Code/Azure/CSC447/hw"
                 ]
             },
             "mainClass": [
